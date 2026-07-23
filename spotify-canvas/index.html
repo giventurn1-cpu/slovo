@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Free Spotify Canvas Maker — create a looping canvas video in your browser | SLOVO</title>
+    <meta name="description" content="Make a free Spotify Canvas online: a 3–8s vertical looping video in the exact 9:16 format Spotify wants. No login, no watermark, everything runs in your browser. Add beat-reactive visuals to your track in a minute." />
+    <link rel="canonical" href="https://slovo.video/spotify-canvas/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Free Spotify Canvas Maker — in your browser" />
+    <meta property="og:description" content="Create a 3–8s looping Spotify Canvas in 9:16. Free, no login, no watermark, private — runs in your browser." />
+    <meta property="og:url" content="https://slovo.video/spotify-canvas/" />
+    <meta property="og:image" content="https://slovo.video/og.png" />
+    <meta property="og:site_name" content="SLOVO" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://slovo.video/og.png" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to make a free Spotify Canvas",
+        "totalTime": "PT2M",
+        "tool": { "@type": "HowToTool", "name": "SLOVO (browser, free)" },
+        "step": [
+          { "@type": "HowToStep", "name": "Open SLOVO", "text": "Go to slovo.video in Chrome or Edge on desktop. Nothing to install." },
+          { "@type": "HowToStep", "name": "Load your track", "text": "Drop your MP3 or WAV. The file stays on your device — it is never uploaded." },
+          { "@type": "HowToStep", "name": "Pick a visual or your own video", "text": "Choose a preset that reacts to the beat, or use your own photo/video loop as the background." },
+          { "@type": "HowToStep", "name": "Export as Canvas", "text": "Open Export, choose the Canvas mode, and save a silent 3–8s 9:16 MP4 ready for Spotify for Artists." }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is a Spotify Canvas?", "acceptedAnswer": { "@type": "Answer", "text": "A Spotify Canvas is a short looping vertical video (3–8 seconds, 9:16) that plays behind your track in the Spotify app instead of the static cover art." } },
+          { "@type": "Question", "name": "Is this Spotify Canvas maker really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SLOVO is free with no login and no watermark. All processing happens in your browser, so your audio never leaves your device." } },
+          { "@type": "Question", "name": "What format does Spotify Canvas require?", "acceptedAnswer": { "@type": "Answer", "text": "Vertical 9:16, 3–8 seconds, at least 720×1280, MP4, and it loops silently. SLOVO exports exactly this from the Canvas mode." } }
+        ]
+      }
+    </script>
+    <style>
+      :root { --bg:#0b0c10; --card:#14161d; --line:#222634; --text:#e7e9ee; --muted:#98a2b3; --accent:#ff2e4d; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; -webkit-font-smoothing:antialiased; }
+      .wrap { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+      header { display:flex; align-items:center; gap:10px; margin-bottom:36px; }
+      header .dot { width:14px; height:14px; border-radius:50%; background:radial-gradient(circle at 50% 40%,#ff5b73,#9b1b30); box-shadow:0 0 18px #ff2e4d80; }
+      header a { color:var(--text); text-decoration:none; font-weight:800; letter-spacing:.08em; font-size:15px; }
+      h1 { font-size:clamp(28px,6vw,44px); line-height:1.15; margin:0 0 14px; letter-spacing:-.01em; }
+      .lead { font-size:18px; color:var(--muted); margin:0 0 28px; }
+      h2 { font-size:22px; margin:40px 0 12px; }
+      p { margin:0 0 14px; }
+      a { color:var(--accent); }
+      .cta { display:inline-flex; align-items:center; gap:8px; background:linear-gradient(120deg,#ff2e4d,#9b1b30); color:#fff; text-decoration:none; font-weight:700; padding:15px 26px; border-radius:14px; font-size:17px; box-shadow:0 8px 30px #ff2e4d40; }
+      .cta.big { margin:10px 0 6px; }
+      .spec { width:100%; border-collapse:collapse; margin:8px 0 8px; font-size:15px; }
+      .spec td { border:1px solid var(--line); padding:9px 12px; }
+      .spec td:first-child { color:var(--muted); width:44%; }
+      ol { padding-left:20px; } ol li { margin:8px 0; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:14px 0; }
+      .faq b { display:block; margin-top:14px; }
+      .faq span { color:var(--muted); }
+      footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+      .muted { color:var(--muted); font-size:14px; }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header><span class="dot"></span><a href="https://slovo.video/">SLOVO</a></header>
+
+      <h1>Free Spotify Canvas maker — right in your browser</h1>
+      <p class="lead">
+        Turn your track into a looping <strong>Spotify Canvas</strong>: a short 3–8 second vertical
+        video in the exact 9:16 format Spotify wants. Free, no login, no watermark — and everything
+        is rendered in your browser, so your audio never leaves your device.
+      </p>
+      <a class="cta big" href="https://slovo.video/?vibe=canvas" data-cta="1">✨ Make my Canvas free →</a>
+      <p class="muted">Works in Chrome or Edge on desktop. Nothing to install.</p>
+
+      <h2>What is a Spotify Canvas?</h2>
+      <p>
+        A Canvas is the short looping video that plays behind your song in the Spotify app instead of
+        the static cover. Artists use it because it makes a track feel alive — and Spotify has said
+        Canvas can lift streams and saves. To upload one in Spotify for Artists it has to match a
+        strict spec:
+      </p>
+      <table class="spec">
+        <tr><td>Aspect ratio</td><td>9:16 (vertical)</td></tr>
+        <tr><td>Length</td><td>3–8 seconds, loops seamlessly</td></tr>
+        <tr><td>Resolution</td><td>720×1280 or higher</td></tr>
+        <tr><td>File</td><td>MP4, no sound</td></tr>
+      </table>
+      <p>SLOVO's <strong>Canvas mode</strong> exports exactly this — you don't have to worry about the numbers.</p>
+
+      <h2>How to make a Spotify Canvas for free</h2>
+      <ol>
+        <li><strong>Open <a href="https://slovo.video/">slovo.video</a></strong> in Chrome or Edge on your computer.</li>
+        <li><strong>Load your track</strong> — drop an MP3 or WAV. It stays on your device; nothing is uploaded.</li>
+        <li><strong>Pick a look</strong> — choose a beat-reactive visual, or use your own photo or video loop as the background. Add subtitles if you want lyrics on screen.</li>
+        <li><strong>Export → Canvas</strong> — save a silent 3–8s, 9:16 MP4, then upload it in Spotify for Artists.</li>
+      </ol>
+      <a class="cta" href="https://slovo.video/?vibe=canvas" data-cta="1">Open the Canvas maker →</a>
+
+      <h2>Why make your Canvas in SLOVO</h2>
+      <div class="card">
+        <p><strong>Free &amp; no watermark.</strong> No subscription, no login, no logo slapped on your video.</p>
+        <p><strong>Private.</strong> Your song and video are processed in the browser — they never touch a server.</p>
+        <p><strong>Reacts to the beat.</strong> Presets pulse, punch and glow with your music; you can even make your own video loop physically react to the sound.</p>
+        <p><strong>Lyrics built in.</strong> Auto-generate subtitles in English, Ukrainian, Russian or Polish and burn them into the loop.</p>
+      </div>
+
+      <h2>FAQ</h2>
+      <div class="faq">
+        <b>Is it really free?</b>
+        <span>Yes — free, no account, no watermark. You can turn the small SLOVO badge off before export.</span>
+        <b>Do I need to install anything?</b>
+        <span>No. It's a website. Use Chrome or Edge on desktop for the fast MP4 export.</span>
+        <b>Can I use my own video as the Canvas?</b>
+        <span>Yes. Drop a short clip as the background, loop it seamlessly, and add beat effects on top.</span>
+        <b>Where do I upload the Canvas?</b>
+        <span>In Spotify for Artists → your track → Canvas. Upload the 9:16 MP4 you exported.</span>
+      </div>
+
+      <p style="margin-top:32px"><a class="cta big" href="https://slovo.video/?vibe=canvas" data-cta="1">✨ Make my Spotify Canvas →</a></p>
+
+      <footer>
+        <p><b>More free tools:</b>
+          <a href="/music-visualizer/">Music visualizer</a> ·
+          <a href="/song-to-video/">Turn a song into a video</a> ·
+          <a href="/lyric-video-maker/">Lyric video maker</a> ·
+          <a href="/vertical-music-video/">Vertical video for TikTok &amp; Reels</a></p>
+        <p>SLOVO — a free, private music visualizer that runs in your browser. Turn any track into a
+        release video with subtitles in about a minute. <a href="https://slovo.video/">slovo.video</a></p>
+      </footer>
+    </div>
+
+    <script>
+      // лёгкий приватный счётчик той же аналитики (без cookies, без PII)
+      (function () {
+        var ep = 'https://slovo-analytics.giventurn1.workers.dev/e';
+        function br(){var u=navigator.userAgent;return /Edg\//.test(u)?'edge':/Firefox\//.test(u)?'firefox':/Chrome\//.test(u)?'chrome':/Safari\//.test(u)?'safari':'other';}
+        function os(){var u=navigator.userAgent;return /Android/.test(u)?'android':/iPhone|iPad/.test(u)?'ios':/Windows/.test(u)?'windows':/Mac OS X/.test(u)?'macos':'other';}
+        var mobile = (matchMedia && matchMedia('(pointer: coarse)').matches) || innerWidth < 768;
+        var ref = ''; try { ref = document.referrer ? new URL(document.referrer).hostname : ''; } catch (e) {}
+        if (ref === location.hostname) ref = '';
+        function send(props) {
+          try {
+            var body = JSON.stringify({
+              n: 'landing', sid: Math.random().toString(36).slice(2, 12),
+              dev: mobile ? 'mobile' : 'desktop', br: br(), os: os(),
+              wc: (typeof VideoEncoder !== 'undefined') ? 1 : 0, wg: ('gpu' in navigator) ? 1 : 0,
+              lang: (navigator.language || '').slice(0, 2), ref: ref, p: props
+            });
+            navigator.sendBeacon(ep, new Blob([body], { type: 'text/plain' }));
+          } catch (e) {}
+        }
+        send({ page: 'spotify-canvas' });
+        document.addEventListener('click', function (e) {
+          var a = e.target.closest && e.target.closest('[data-cta]');
+          if (a) send({ page: 'spotify-canvas', cta: 1 });
+        });
+      })();
+    </script>
+  </body>
+</html>
