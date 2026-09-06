@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>SLOVO — диагностика устройства</title>
+<style>
+  :root{ --bg:#0B0C10; --panel:#14161d; --line:#262a34; --ink:#e7e9ee; --muted:#9aa0ad;
+         --ok:#5fd08a; --bad:#f26d6d; --warn:#e0b25a; --acc:#ff7a2f; }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+       font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       -webkit-font-smoothing:antialiased;padding:16px 14px 40px;line-height:1.5}
+  .wrap{max-width:680px;margin:0 auto}
+  h1{font-size:1.15rem;margin:0 0 2px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:.8rem;margin:0 0 18px}
+  .verdict{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--acc);
+           border-radius:12px;padding:14px 16px;margin-bottom:18px}
+  .verdict h2{font-size:.98rem;margin:0 0 8px}
+  .vline{display:flex;gap:8px;align-items:baseline;font-size:.88rem;margin:5px 0}
+  h3{font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);
+     margin:22px 0 8px;font-weight:700}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow:hidden}
+  .row{display:flex;justify-content:space-between;gap:12px;align-items:baseline;
+       padding:9px 14px;border-bottom:1px solid var(--line);font-size:.85rem}
+  .row:last-child{border-bottom:none}
+  .row .k{color:var(--muted);min-width:0}
+  .row .v{text-align:right;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:.8rem;
+          word-break:break-word}
+  /* длинные значения (UA, видеоядро, MIME) кладём под подпись — иначе наезжают */
+  .row.stack{display:block}
+  .row.stack .v{display:block;text-align:left;margin-top:3px;font-size:.74rem}
+  .ok{color:var(--ok)} .bad{color:var(--bad)} .warn{color:var(--warn)}
+  button{width:100%;margin-top:22px;padding:14px;border-radius:12px;border:1px solid var(--acc);
+         background:transparent;color:var(--acc);font-size:.95rem;font-weight:600;cursor:pointer}
+  button:active{background:rgba(255,122,47,.12)}
+  .hint{color:var(--muted);font-size:.76rem;margin-top:10px;text-align:center}
+  a{color:var(--acc)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>SLOVO — диагностика устройства</h1>
+  <p class="sub">Проверяет, какой путь экспорта видео выберет приложение именно на этом устройстве. Ничего не отправляет — всё считается локально.</p>
+
+  <div class="verdict" id="verdict"><h2>Проверяю…</h2></div>
+
+  <h3>Быстрый экспорт (WebCodecs)</h3><div class="card" id="wc"></div>
+  <h3>Проверка кодека по разрешениям</h3><div class="card" id="codecs"></div>
+  <h3>Запасной путь (запись в реальном времени)</h3><div class="card" id="mr"></div>
+  <h3>Графика</h3><div class="card" id="gl"></div>
+  <h3>Субтитры (выравнивание лирики)</h3><div class="card" id="asr"></div>
+  <h3>Устройство</h3><div class="card" id="dev"></div>
+
+  <button id="copy">Скопировать отчёт</button>
+  <p class="hint">Пришли этот отчёт — по нему будет видно, работает ли экспорт на телефоне.</p>
+</div>
+
+<script>
+const lines = [];           // текстовый отчёт для копирования
+function row(host, k, v, cls, stack) {
+  const d = document.createElement('div');
+  d.className = stack ? 'row stack' : 'row';
+  d.innerHTML = '<span class="k"></span><span class="v"></span>';
+  d.children[0].textContent = k;
+  d.children[1].textContent = v;
+  if (cls) d.children[1].classList.add(cls);
+  document.getElementById(host).appendChild(d);
+  lines.push(k + ': ' + v);
+}
+const YN = (b) => b ? 'есть' : 'НЕТ';
+const cls = (b) => b ? 'ok' : 'bad';
+
+// ── те же четыре API, что требует canWebcodecExport() в движке ──────────────
+const hasVE = typeof VideoEncoder !== 'undefined';
+const hasAE = typeof AudioEncoder !== 'undefined';
+const hasVF = typeof VideoFrame !== 'undefined';
+const hasAD = typeof AudioData !== 'undefined';
+const wcAll = hasVE && hasAE && hasVF && hasAD;
+row('wc', 'VideoEncoder', YN(hasVE), cls(hasVE));
+row('wc', 'AudioEncoder', YN(hasAE), cls(hasAE));
+row('wc', 'VideoFrame', YN(hasVF), cls(hasVF));
+row('wc', 'AudioData', YN(hasAD), cls(hasAD));
+row('wc', 'Быстрый путь доступен', wcAll ? 'ДА' : 'нет — нужны все четыре', cls(wcAll));
+
+// ── запасной путь: те же MIME-кандидаты, что в Recorder.ts ──────────────────
+const MIMES = [
+  'video/mp4;codecs="avc1.640028,mp4a.40.2"',
+  'video/mp4',
+  'video/webm;codecs="vp9,opus"',
+  'video/webm;codecs="vp8,opus"',
+  'video/webm'
+];
+const hasMR = typeof MediaRecorder !== 'undefined';
+const hasCS = typeof HTMLCanvasElement !== 'undefined' &&
+              typeof HTMLCanvasElement.prototype.captureStream === 'function';
+let mime = null;
+if (hasMR) { try { mime = MIMES.find((m) => MediaRecorder.isTypeSupported(m)) || null; } catch (e) {} }
+const mrOk = hasMR && hasCS && mime !== null;
+row('mr', 'MediaRecorder', YN(hasMR), cls(hasMR));
+row('mr', 'canvas.captureStream', YN(hasCS), cls(hasCS));
+row('mr', 'Формат', mime || 'ни один не поддержан', cls(mime !== null), true);
+row('mr', 'Запасной путь доступен', mrOk ? 'ДА' : 'нет', cls(mrOk));
+
+// ── графика: наш шейдерный рендер зажимается этими лимитами ─────────────────
+let glInfo = { ok:false, renderer:'—', maxTex:0, maxVp:'—' };
+try {
+  const c = document.createElement('canvas');
+  const gl = c.getContext('webgl2');
+  if (gl) {
+    const e = gl.getExtension('WEBGL_debug_renderer_info');
+    const vp = gl.getParameter(gl.MAX_VIEWPORT_DIMS);
+    glInfo = {
+      ok: true,
+      renderer: String(e ? gl.getParameter(e.UNMASKED_RENDERER_WEBGL) : gl.getParameter(gl.RENDERER)),
+      maxTex: gl.getParameter(gl.MAX_TEXTURE_SIZE),
+      maxVp: vp ? vp[0] + '×' + vp[1] : '—'
+    };
+    const lose = gl.getExtension('WEBGL_lose_context'); if (lose) lose.loseContext();
+  }
+} catch (e) {}
+row('gl', 'WebGL2', YN(glInfo.ok), cls(glInfo.ok));
+row('gl', 'Видеоядро', glInfo.renderer, null, true);
+row('gl', 'Макс. текстура', String(glInfo.maxTex), glInfo.maxTex >= 4096 ? 'ok' : 'warn');
+row('gl', 'Макс. вьюпорт', glInfo.maxVp);
+
+// ── субтитры: выравнивание своего текста идёт без модели, WebGPU нужен только
+// переводу лирики (docs/TRANSLATE.md)
+const hasGPU = typeof navigator !== 'undefined' && 'gpu' in navigator;
+row('asr', 'Выравнивание лирики', 'свой анализ вокала, без загрузки модели', 'ok');
+row('asr', 'WebGPU (для перевода)', YN(hasGPU), hasGPU ? 'ok' : 'warn');
+
+// ── устройство ─────────────────────────────────────────────────────────────
+row('dev', 'Платформа', (navigator.platform || '—') + ' · ' +
+    (navigator.userAgentData && navigator.userAgentData.mobile ? 'мобильное' : 'не заявлено мобильным'));
+row('dev', 'Ядер CPU', String(navigator.hardwareConcurrency || '—'));
+row('dev', 'ОЗУ (заявлено)', navigator.deviceMemory ? navigator.deviceMemory + ' ГБ' : 'не сообщается');
+row('dev', 'Экран', screen.width + '×' + screen.height + ' @' + (devicePixelRatio || 1) + 'x');
+row('dev', 'Браузер (UA)', navigator.userAgent, null, true);
+
+// ── проба реальных конфигов кодировщика: те же строки, что строит движок ────
+function h264Codec(w, h, fps) {                 // копия h264Codec из webcodecExport.ts
+  const fs = Math.ceil(w / 16) * Math.ceil(h / 16);
+  const mbps = fs * fps;
+  const levels = [[0x28,8192,245760],[0x2a,8704,522240],[0x32,22080,589824],
+                  [0x33,36864,983040],[0x34,36864,2073600],[0x3c,139264,4177920]];
+  let lvl = 0x34;
+  for (const [b, maxFs, maxMbps] of levels) { if (fs <= maxFs && mbps <= maxMbps) { lvl = b; break; } }
+  return 'avc1.6400' + lvl.toString(16).padStart(2, '0');
+}
+// 9:16 — формат по умолчанию в приложении; битрейты как в движке
+const PROBES = [
+  ['720p (9:16)',  720, 1280,  8000000],
+  ['1080p (9:16)', 1080, 1920, 12000000],
+  ['4K (9:16)',    2160, 3840, 30000000],
+  ['4K (16:9)',    3840, 2160, 30000000]
+];
+async function probe() {
+  if (!hasVE) { row('codecs', 'Проверка', 'невозможна — нет VideoEncoder', 'bad'); return {}; }
+  const out = {};
+  for (const [label, w, h, br] of PROBES) {
+    const codec = h264Codec(w, h, 30);
+    let verdict = 'не поддержано', c = 'bad';
+    for (const accel of ['prefer-hardware', 'prefer-software']) {
+      try {
+        const r = await VideoEncoder.isConfigSupported({
+          codec, width: w, height: h, bitrate: br, framerate: 30, hardwareAcceleration: accel
+        });
+        if (r && r.supported) {
+          verdict = codec + ' · ' + (accel === 'prefer-hardware' ? 'аппаратно' : 'программно');
+          c = accel === 'prefer-hardware' ? 'ok' : 'warn';
+          break;
+        }
+      } catch (e) {}
+    }
+    out[label] = verdict;
+    row('codecs', label, verdict, c);
+  }
+  // звук
+  if (hasAE) {
+    let a = 'не поддержано', ac = 'bad';
+    try {
+      const r = await AudioEncoder.isConfigSupported({
+        codec: 'mp4a.40.2', sampleRate: 48000, numberOfChannels: 2, bitrate: 192000
+      });
+      if (r && r.supported) { a = 'AAC 192 кбит/с'; ac = 'ok'; }
+    } catch (e) {}
+    row('codecs', 'Звук', a, ac);
+    out.audio = a;
+  } else {
+    row('codecs', 'Звук', 'нет AudioEncoder', 'bad');
+  }
+  return out;
+}
+
+probe().then((res) => {
+  const v = document.getElementById('verdict');
+  const hw1080 = (res['1080p (9:16)'] || '').indexOf('аппаратно') >= 0;
+  const any4k = (res['4K (9:16)'] || '').indexOf('не поддержано') < 0;
+  let head, note;
+  if (wcAll && hw1080) {
+    head = '<span class="ok">Быстрый экспорт работает</span>';
+    note = any4k ? 'Доступны 1080p и 4K.' : 'Надёжно 1080p; 4K кодировщик не подтвердил.';
+  } else if (wcAll) {
+    head = '<span class="warn">Быстрый экспорт включится, но кодек без аппаратного ускорения</span>';
+    note = 'Рендер будет заметно медленнее реального времени.';
+  } else if (mrOk) {
+    head = '<span class="warn">Только запись в реальном времени</span>';
+    note = 'Файл получится, но качеством ниже (снимается превью, ≤1080p) и по длительности трека.';
+  } else {
+    head = '<span class="bad">Экспорт на этом устройстве недоступен</span>';
+    note = 'Ни быстрый путь, ни запасной не проходят проверку.';
+  }
+  v.innerHTML = '<h2>' + head + '</h2><div class="vline">' + note + '</div>';
+  lines.unshift('ВЕРДИКТ: ' + v.querySelector('h2').textContent + ' — ' + note, '');
+});
+
+document.getElementById('copy').addEventListener('click', () => {
+  const txt = 'SLOVO диагностика ' + new Date().toISOString() + '\n\n' + lines.join('\n');
+  const done = () => { const b = document.getElementById('copy'); b.textContent = 'Скопировано ✓';
+                       setTimeout(() => { b.textContent = 'Скопировать отчёт'; }, 2000); };
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(txt).then(done, () => alert(txt));
+  } else { alert(txt); }
+});
+</script>
+</body>
+</html>

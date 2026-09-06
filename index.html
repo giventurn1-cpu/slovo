@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="ru" data-preset="phonk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="SLOVO — бесплатный визуализатор музыки: трек → релиз-видео с субтитрами за минуту. Приватно, всё в вашем браузере, без вотермарки." />
+    <!-- GOOGLE_SITE_VERIFICATION: сюда вставим meta-тег из Search Console (см. инструкцию) -->
+    <title>SLOVO — визуализатор музыки: трек → релиз-видео в браузере</title>
+    <meta property="og:title" content="SLOVO — визуализатор музыки" />
+    <meta property="og:description" content="Трек → релиз-видео с субтитрами за минуту. Бесплатно, приватно, всё в браузере." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slovo.video/" />
+    <link rel="canonical" href="https://slovo.video/" />
+    <meta property="og:image" content="https://slovo.video/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://slovo.video/og.png" />
+    <meta property="og:site_name" content="SLOVO" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "SLOVO",
+        "url": "https://slovo.video/",
+        "description": "Бесплатный визуализатор музыки: трек → релиз-видео с укр/рус субтитрами за минуту. Приватно, всё в браузере, без вотермарки.",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web",
+        "inLanguage": ["ru", "uk", "pl", "en"],
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Как бесплатно сделать видео из песни?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Загрузите трек на slovo.video, выберите визуал, при желании добавьте субтитры и нажмите «Экспортировать видео». Готовый MP4 сохранится на устройство — бесплатно и без вотермарки." }
+          },
+          {
+            "@type": "Question",
+            "name": "Что такое Spotify Canvas и как его сделать?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Spotify Canvas — короткий вертикальный видео-луп для трека. В SLOVO включите режим «Canvas» и получите тихое видео 3–8 секунд в формате 9:16, готовое к загрузке в Spotify for Artists." }
+          },
+          {
+            "@type": "Question",
+            "name": "Это правда бесплатно и приватно?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Да. Оплаты и регистрации нет, файлы никуда не загружаются — вся обработка идёт прямо в вашем браузере, а вотермарку можно отключить." }
+          }
+        ]
+      }
+    </script>
+    <style>
+      #seo-splash{position:fixed;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;padding:28px;text-align:center;background:#0b0c10;color:#e7e9ee;font-family:system-ui,-apple-system,sans-serif;z-index:0}
+      #seo-splash h1{font-size:clamp(22px,5vw,40px);font-weight:800;margin:0;letter-spacing:.02em}
+      #seo-splash p{max-width:640px;margin:0;font-size:15px;line-height:1.6;color:#aab2c0}
+      #seo-splash .dot{width:44px;height:44px;border-radius:50%;background:radial-gradient(circle at 50% 40%,#ff2e4d,#9b1b30);box-shadow:0 0 40px #ff2e4d80;margin-bottom:6px;animation:sp 1.4s ease-in-out infinite}
+      #seo-splash .faq{max-width:640px;text-align:left;margin-top:6px}
+      #seo-splash .faq b{color:#e7e9ee;font-size:14px}
+      #seo-splash .faq span{color:#8f98a8;font-size:13px}
+      @keyframes sp{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.15);opacity:1}}
+    </style>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="theme-color" content="#0b0c10" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&family=Montserrat:wght@900&family=Oswald:wght@600&family=Playfair+Display:wght@700&family=Unbounded:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <script type="module" crossorigin src="./assets/vendor-BmWERINj.js"></script>
+    <script type="module" crossorigin src="./assets/main-D4UpDDj4.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-BCw1fANS.css">
+  </head>
+  <body>
+    <div id="root">
+      <!-- Заставка-загрузки + контент для поисковиков: приложение заменит её при старте.
+           Реальный текст под запросы «визуализатор музыки», «видео из песни с субтитрами»,
+           «spotify canvas maker», «релиз-видео для музыкантов». -->
+      <div id="seo-splash">
+        <span class="dot"></span>
+        <h1 id="sp-h1">SLOVO — визуализатор музыки в браузере</h1>
+        <p id="sp-p1">
+          Превратите трек в вертикальное релиз-видео с субтитрами за минуту. Загрузите песню — SLOVO
+          соберёт визуализатор под бит, разложит вставленный вами текст по вокалу
+          и сохранит готовое видео 9:16 для Reels, TikTok, Shorts и формата Spotify Canvas.
+        </p>
+        <p id="sp-p2">
+          Бесплатно, без вотермарки и без регистрации. Всё считается прямо в вашем браузере — файлы
+          никуда не загружаются. Живые эффекты под музыку, свои фото и видео как фон, эффект «живые
+          пиксели», обложка и лого артиста.
+        </p>
+        <div class="faq">
+          <p><b id="sp-q1">Как бесплатно сделать видео из песни?</b><br /><span id="sp-a1">Загрузите трек, выберите визуал, добавьте субтитры и нажмите «Экспортировать видео» — готовый MP4 сохранится на устройство.</span></p>
+          <p><b id="sp-q2">Что такое Spotify Canvas и как его сделать?</b><br /><span id="sp-a2">Короткий вертикальный луп 3–8 секунд для трека в Spotify. Включите режим «Canvas» — получите видео 9:16 в нужном формате.</span></p>
+          <p><b id="sp-q3">Это правда бесплатно и приватно?</b><br /><span id="sp-a3">Да. Ни оплаты, ни загрузки на сервер: обработка идёт в браузере, вотермарку можно отключить.</span></p>
+        </div>
+        <p>
+          <a id="sp-cta1" href="https://slovo.video/" style="color:#ff5b73">Открыть визуализатор →</a>
+        </p>
+        <!--
+          Ссылки на все промо-страницы. Раньше отсюда вела ровно одна (Spotify
+          Canvas), и остальной десяток был доступен только из sitemap — то есть
+          вес с единственной страницы, у которой он есть, до них не доходил, и
+          в выдаче держалась одна главная. Анкоры на своём языке для каждой
+          группы: подстановкой перевода они не заняты (скрипт ниже трогает
+          только элементы с id), поэтому пишем их сразу так, как надо читать.
+        -->
+        <p style="line-height:1.9">
+          <a href="https://slovo.video/instrumenty/" style="color:#ff5b73">Все инструменты</a> ·
+          <a href="https://slovo.video/vizualizator-muzyki/" style="color:#ff5b73">Визуализатор музыки</a> ·
+          <a href="https://slovo.video/video-iz-pesni/" style="color:#ff5b73">Видео из песни</a> ·
+          <a href="https://slovo.video/video-dlya-treka/" style="color:#ff5b73">Видео для трека</a> ·
+          <a href="https://slovo.video/subtitry-k-pesne/" style="color:#ff5b73">Субтитры к песне</a> ·
+          <a href="https://slovo.video/ozhivit-foto-pod-muzyku/" style="color:#ff5b73">Оживить фото под музыку</a>
+        </p>
+        <p style="line-height:1.9">
+          <a href="https://slovo.video/tools/" style="color:#ff5b73">All free tools</a> ·
+          <a href="https://slovo.video/music-visualizer/" style="color:#ff5b73">Music visualizer</a> ·
+          <a href="https://slovo.video/lyric-video-maker/" style="color:#ff5b73">Lyric video maker</a> ·
+          <a href="https://slovo.video/song-to-video/" style="color:#ff5b73">Song to video</a> ·
+          <a href="https://slovo.video/vertical-music-video/" style="color:#ff5b73">Vertical music video</a> ·
+          <a href="https://slovo.video/spotify-canvas/" style="color:#ff5b73">Spotify Canvas maker</a> ·
+          <a href="https://slovo.video/animate-photo-with-music/" style="color:#ff5b73">Animate a photo</a> ·
+          <a href="https://slovo.video/suno-to-video/" style="color:#ff5b73">Suno to video</a> ·
+          <a href="https://slovo.video/free-music-visualizer-alternatives/" style="color:#ff5b73">Free alternatives</a>
+        </p>
+        <p style="line-height:1.9">
+          <a href="https://slovo.video/wizualizator-muzyki/" style="color:#ff5b73">Wizualizator muzyki (po polsku)</a>
+        </p>
+      </div>
+    </div>
+    <!--
+      Заставку видит человек ДО загрузки приложения (само оно локализуется само,
+      см. src/i18n.ts). Раньше она была всегда на русском: посетитель с
+      английским браузером первым делом упирался в незнакомый язык.
+      Скрипт инлайновый и синхронный — подмена происходит до первой отрисовки,
+      без мигания. Разметка остаётся РУССКОЙ: её индексируют поисковики по
+      русским запросам, а под английские есть отдельные лендинги в public/.
+    -->
+    <script>
+      (function () {
+        var L = 'ru';
+        try {
+          var s = localStorage.getItem('slovo-lang');
+          if (s === 'ru' || s === 'uk' || s === 'pl' || s === 'en') L = s;
+          else throw 0;
+        } catch (e) {
+          var n = (navigator.language || 'ru').toLowerCase();
+          L = n.indexOf('uk') === 0 ? 'uk'
+            : n.indexOf('pl') === 0 ? 'pl'
+            : (n.indexOf('ru') === 0 || n.indexOf('be') === 0 || n.indexOf('kk') === 0) ? 'ru'
+            : 'en';
+        }
+        if (L === 'ru') return; // разметка уже русская
+        var T = {
+          en: {
+            h1: 'SLOVO — music visualizer in your browser',
+            p1: 'Turn a track into a vertical release video with subtitles in a minute. Upload a song and SLOVO builds a visualizer on the beat, turns the lyrics into subtitles and saves a ready 9:16 video for Reels, TikTok, Shorts and Spotify Canvas.',
+            p2: 'Free, no watermark, no sign-up. Everything runs inside your browser — your files never leave the device. Live effects on the beat, your own photo or video as a background, cover art and artist logo.',
+            q1: 'How do I make a video from a song for free?',
+            a1: 'Upload a track, pick a visual, add subtitles and press “Export video” — the MP4 is saved straight to your device.',
+            q2: 'What is a Spotify Canvas and how do I make one?',
+            a2: 'A short vertical 3–8 second loop for a track on Spotify. Switch on “Canvas” mode and get a 9:16 video in the right format.',
+            q3: 'Is it really free and private?',
+            a3: 'Yes. No payment, no uploads to a server: everything is processed in your browser and the watermark can be turned off.',
+            cta1: 'Open the visualizer →',
+          },
+          uk: {
+            h1: 'SLOVO — візуалізатор музики у браузері',
+            p1: 'Перетворіть трек на вертикальне реліз-відео із субтитрами за хвилину. Завантажте пісню — SLOVO збере візуалізатор під біт, розкладе вставлений вами текст по вокалу й збереже готове відео 9:16 для Reels, TikTok, Shorts і формату Spotify Canvas.',
+            p2: 'Безкоштовно, без вотермарки та без реєстрації. Усе рахується просто у вашому браузері — файли нікуди не завантажуються. Живі ефекти під музику, власні фото та відео як тло, обкладинка й лого артиста.',
+            q1: 'Як безкоштовно зробити відео з пісні?',
+            a1: 'Завантажте трек, оберіть візуал, додайте субтитри й натисніть «Експортувати відео» — готовий MP4 збережеться на пристрій.',
+            q2: 'Що таке Spotify Canvas і як його зробити?',
+            a2: 'Короткий вертикальний луп 3–8 секунд для треку у Spotify. Увімкніть режим «Canvas» — отримаєте відео 9:16 у потрібному форматі.',
+            q3: 'Це справді безкоштовно і приватно?',
+            a3: 'Так. Ні оплати, ні завантаження на сервер: обробка йде у браузері, вотермарку можна вимкнути.',
+            cta1: 'Відкрити візуалізатор →',
+          },
+          pl: {
+            h1: 'SLOVO — wizualizator muzyki w przeglądarce',
+            p1: 'Zamień utwór w pionowe wideo premierowe z napisami w minutę. Wgraj piosenkę — SLOVO złoży wizualizator w rytm, zamieni słowa w napisy i zapisze gotowe wideo 9:16 na Reels, TikTok, Shorts i Spotify Canvas.',
+            p2: 'Za darmo, bez znaku wodnego i bez rejestracji. Wszystko liczy się w Twojej przeglądarce — pliki nigdzie nie trafiają. Efekty w rytm muzyki, własne zdjęcia i wideo w tle, okładka i logo artysty.',
+            q1: 'Jak za darmo zrobić wideo z piosenki?',
+            a1: 'Wgraj utwór, wybierz wizual, dodaj napisy i naciśnij „Eksportuj wideo” — gotowy MP4 zapisze się na urządzeniu.',
+            q2: 'Czym jest Spotify Canvas i jak go zrobić?',
+            a2: 'Krótka pionowa pętla 3–8 sekund dla utworu w Spotify. Włącz tryb „Canvas” — dostaniesz wideo 9:16 we właściwym formacie.',
+            q3: 'Czy to naprawdę darmowe i prywatne?',
+            a3: 'Tak. Bez opłat i bez wysyłania na serwer: wszystko dzieje się w przeglądarce, znak wodny można wyłączyć.',
+            cta1: 'Otwórz wizualizator →',
+          },
+        };
+        var d = T[L];
+        if (!d) return;
+        document.documentElement.lang = L;
+        var put = function (id, text) {
+          var el = document.getElementById(id);
+          if (el) el.textContent = text;
+        };
+        put('sp-h1', d.h1); put('sp-p1', d.p1); put('sp-p2', d.p2);
+        put('sp-q1', d.q1); put('sp-a1', d.a1);
+        put('sp-q2', d.q2); put('sp-a2', d.a2);
+        put('sp-q3', d.q3); put('sp-a3', d.a3);
+        put('sp-cta1', d.cta1);
+      })();
+    </script>
+  </body>
+</html>

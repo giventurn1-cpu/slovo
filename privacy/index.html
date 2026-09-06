@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Конфиденциальность | SLOVO</title>
+    <meta name="description" content="Политика конфиденциальности SLOVO: трек не покидает браузер, аналитика обезличена, отчёты об ошибках очищаются от личных данных." />
+    <link rel="canonical" href="https://slovo.video/privacy/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Конфиденциальность | SLOVO" />
+    <meta property="og:description" content="Трек не покидает браузер. Аналитика обезличена. Полная политика конфиденциальности SLOVO и инструмента SLOVO Combine." />
+    <meta property="og:url" content="https://slovo.video/privacy/" />
+    <meta property="og:image" content="https://slovo.video/og.png" />
+    <meta property="og:site_name" content="SLOVO" />
+    <link rel="stylesheet" href="/guide.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header><span class="dot"></span><a href="https://slovo.video/">SLOVO</a></header>
+
+      <h1>Конфиденциальность</h1>
+      <p class="lead">
+        Главный принцип SLOVO — приватность как архитектура: у сервиса нет бэкенда для обработки
+        ваших файлов. Всё, что вы загружаете, обрабатывается на вашем устройстве.
+      </p>
+
+      <h2>Сайт slovo.video</h2>
+      <ul>
+        <li><b>Треки, фото и видео не покидают браузер.</b> Загрузка, анализ звука, выравнивание
+          лирики по голосу и экспорт видео выполняются локально, на вашем устройстве. Серверов
+          обработки не существует.</li>
+        <li><b>Аналитика — обезличенная и своя.</b> Мы отправляем события воронки (открыл, играл,
+          экспортировал) на собственный сервис без сторонних трекеров. IP-адреса не хранятся;
+          посетители считаются суточным хешем. Отключается в настройках («Не отправлять
+          аналитику»).</li>
+        <li><b>Отчёты об ошибках очищаются.</b> Перед отправкой из текста ошибки вырезаются пути к
+          файлам, имена файлов, ссылки и почта. Не более трёх отчётов за визит.</li>
+        <li><b>Проекты хранятся у вас.</b> Автосохранение живёт в браузере (IndexedDB / localStorage)
+          и никуда не отправляется.</li>
+        <li><b>Внешние ресурсы.</b> Страница загружает шрифты Google Fonts, а при переводе субтитров или
+          автовырезании объекта — веса моделей с CDN Hugging Face; этим сервисам виден ваш IP-адрес, как любому CDN. Содержимое ваших
+          файлов им не передаётся.</li>
+      </ul>
+
+      <h2>Инструмент SLOVO Combine (YouTube API)</h2>
+      <p>
+        SLOVO Combine — локальный инструмент владельца сайта для публикации собственных
+        видео на собственном YouTube-канале. Он использует YouTube API Services.
+      </p>
+      <ul>
+        <li>Инструмент запрашивает доступ Google OAuth только к каналу его владельца
+          (области youtube.upload и youtube) и загружает только видео, созданные владельцем.</li>
+        <li>Токены OAuth хранятся локально на компьютере владельца и никому не передаются.</li>
+        <li>Инструмент не собирает, не хранит и не обрабатывает данные третьих лиц.</li>
+        <li>Используя YouTube API Services, инструмент подчиняется
+          <a href="https://www.youtube.com/t/terms" rel="noopener">Условиям использования YouTube</a>
+          и <a href="https://policies.google.com/privacy" rel="noopener">Политике конфиденциальности Google</a>.</li>
+        <li>Отозвать выданный доступ можно в любой момент на странице
+          <a href="https://security.google.com/settings/security/permissions" rel="noopener">разрешений
+          аккаунта Google</a>.</li>
+      </ul>
+
+      <h2 id="en">Privacy Policy (English)</h2>
+      <p>
+        SLOVO (slovo.video) is a free browser-based music visualizer. Its core privacy principle:
+        <b>your files never leave your device</b>. Audio analysis, lyric timing and video export
+        run locally in your browser; there is no processing backend. SLOVO does not perform speech
+        recognition at all — you supply the lyrics yourself.
+      </p>
+      <ul>
+        <li><b>Analytics.</b> We send anonymized funnel events to our own endpoint (no third-party
+          trackers). IP addresses are not stored; visitors are counted via a daily hash. Analytics
+          can be disabled in the app settings.</li>
+        <li><b>Error reports.</b> Before sending, error texts are stripped of file paths, file
+          names, URLs and email addresses; at most three reports per visit.</li>
+        <li><b>External resources.</b> The page loads Google Fonts, and — when you translate subtitles or cut out an
+          object — model weights from the Hugging Face CDN; like any CDN, they can see your IP address. Your files are never
+          sent to them.</li>
+      </ul>
+      <p>
+        <b>SLOVO Combine</b> is a local desktop tool used solely by the site owner to upload the
+        owner's own videos to the owner's own YouTube channel. It uses YouTube API Services: by
+        using it, the owner agrees to the
+        <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a> and the
+        <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.
+        The tool requests Google OAuth access only to the owner's channel (scopes: youtube.upload,
+        youtube); OAuth tokens are stored locally on the owner's machine; no third-party user data
+        is collected, stored or shared. Granted access can be revoked at any time via
+        <a href="https://security.google.com/settings/security/permissions" rel="noopener">Google
+        security settings</a>.
+      </p>
+
+      <p class="muted">Вопросы о конфиденциальности: giventurn1@gmail.com</p>
+
+      <footer>
+        <p>SLOVO — бесплатный визуализатор музыки в браузере. <a href="https://slovo.video/">Открыть →</a></p>
+      </footer>
+    </div>
+    <script src="/guide.js" defer></script>
+  </body>
+</html>
