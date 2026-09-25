@@ -1,0 +1,1638 @@
+[
+ {
+  "id": "pure",
+  "name": "PURE",
+  "tagline": "Чистый кадр. Только вы.",
+  "category": "Minimal",
+  "tags": [
+   "чистый",
+   "фото",
+   "фон",
+   "минимал",
+   "текст"
+  ],
+  "accent": "#EDEEF2",
+  "accent2": "#8A8F9C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicHVyZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "logo",
+  "name": "LOGO PULSE",
+  "tagline": "Твой арт в центре.",
+  "category": "Лого",
+  "tags": [
+   "логотип",
+   "обложка",
+   "арт",
+   "центр",
+   "спектр"
+  ],
+  "accent": "#8AB4FF",
+  "accent2": "#5A7AD0",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibG9nbyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "logocard",
+  "name": "OFFICIAL",
+  "tagline": "Обложка как в official audio.",
+  "category": "Лого",
+  "tags": [
+   "обложка",
+   "карточка",
+   "official",
+   "аудио",
+   "лого"
+  ],
+  "accent": "#B5BAC8",
+  "accent2": "#5A6070",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibG9nb2NhcmQiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "gold",
+  "name": "ЗОЛОТО",
+  "tagline": "Лого из тысяч частиц.",
+  "category": "Лого",
+  "tags": [
+   "золото",
+   "частицы",
+   "лого",
+   "взрыв",
+   "премиум"
+  ],
+  "accent": "#FFD98F",
+  "accent2": "#8A6A3A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ29sZCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "bolt",
+  "name": "МОЛНИЯ",
+  "tagline": "Разряд бьёт в лого на ките.",
+  "category": "Лого",
+  "tags": [
+   "молния",
+   "гроза",
+   "шторм",
+   "лого",
+   "разряд"
+  ],
+  "accent": "#9FC8FF",
+  "accent2": "#33415C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYm9sdCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "wave",
+  "name": "АУДИОГРАММА",
+  "tagline": "Волна трека как луч осциллографа.",
+  "category": "Minimal",
+  "tags": [
+   "волна",
+   "осциллограф",
+   "неон",
+   "линия",
+   "минимал"
+  ],
+  "accent": "#59F2D2",
+  "accent2": "#1E6B5C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid2F2ZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "horizon",
+  "name": "ГОРИЗОНТ",
+  "tagline": "Две линии осциллографа сквозь знак артиста.",
+  "category": "Лого",
+  "tags": [
+   "осциллограф",
+   "волна",
+   "неон",
+   "лого",
+   "минимал",
+   "инженерный"
+  ],
+  "accent": "#3FD8E8",
+  "accent2": "#F5C15A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiaG9yaXpvbiIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "retro",
+  "name": "ПЛЕЕР",
+  "tagline": "Экран кинескопа: обложка, VU-метры, глитч.",
+  "category": "Лого",
+  "tags": [
+   "ретро",
+   "кинескоп",
+   "глитч",
+   "vu",
+   "плеер",
+   "синтвейв"
+  ],
+  "accent": "#45E5EE",
+  "accent2": "#FF3AD0",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicmV0cm8iLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "orbit",
+  "name": "ОРБИТЫ",
+  "tagline": "Частицы вращаются по орбитам частот.",
+  "category": "Лого",
+  "tags": [
+   "частицы",
+   "орбита",
+   "космос",
+   "лого",
+   "золото",
+   "спектр"
+  ],
+  "accent": "#F3C87A",
+  "accent2": "#7B4BD8",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoib3JiaXQiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mosaic",
+  "name": "МОЗАИКА",
+  "tagline": "Наклонённая карточка из плиток и сейсмолинии.",
+  "category": "Лого",
+  "tags": [
+   "мозаика",
+   "плитки",
+   "3d",
+   "сейсмограмма",
+   "лого",
+   "неон"
+  ],
+  "accent": "#FFA23C",
+  "accent2": "#4EA8FF",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW9zYWljIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "snow",
+  "name": "МЕТЕЛЬ",
+  "tagline": "Снег в свете фонаря.",
+  "category": "Кино",
+  "tags": [
+   "снег",
+   "метель",
+   "зима",
+   "фонарь",
+   "лирика"
+  ],
+  "accent": "#CFE0F2",
+  "accent2": "#5A6B80",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoic25vdyIsImciOjAuMywicyI6MCwic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "phonk",
+  "name": "PHONK DRIFT",
+  "tagline": "Бас качает. Камера трясётся.",
+  "category": "Phonk",
+  "tags": [
+   "фонк",
+   "дрифт",
+   "бас",
+   "кольцо",
+   "дым"
+  ],
+  "accent": "#FF2E4D",
+  "accent2": "#9B1B30",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGhvbmsiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "trap",
+  "name": "TRAP NIGHT",
+  "tagline": "Треугольник, золото, дождь.",
+  "category": "Trap",
+  "tags": [
+   "трэп",
+   "треугольник",
+   "золото",
+   "дождь"
+  ],
+  "accent": "#B26BFF",
+  "accent2": "#FFB800",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoidHJhcCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "custom",
+  "name": "CONSTRUCTOR",
+  "tagline": "Собери свой вайб из слоёв",
+  "category": "Конструктор",
+  "tags": [
+   "конструктор",
+   "свой",
+   "слои",
+   "модуляторы"
+  ],
+  "accent": "#3DF2A4",
+  "accent2": "#1FA36B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiY3VzdG9tIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "mn_pulse",
+  "name": "ПУЛЬС",
+  "tagline": "Капсулы дышат спектром, центр бьёт в кик.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "эквалайзер",
+   "капсулы",
+   "виджет",
+   "бит"
+  ],
+  "accent": "#EAF2FF",
+  "accent2": "#6E7A8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fcHVsc2UiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mn_player",
+  "name": "МИНИ-ПЛЕЕР",
+  "tagline": "Прогресс и тайм-код трека, как в плеере.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "плеер",
+   "прогресс",
+   "интерфейс",
+   "виджет"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#8A93A0",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fcGxheWVyIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "mn_line",
+  "name": "НИТЬ",
+  "tagline": "Тонкая нить дышит волной трека.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "линия",
+   "волна",
+   "осциллограф",
+   "виджет"
+  ],
+  "accent": "#DFF3FF",
+  "accent2": "#4E6E85",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fbGluZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mn_ring",
+  "name": "КОЛЬЦО",
+  "tagline": "Кольцо прогресса, кик пускает волну.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "кольцо",
+   "прогресс",
+   "круг",
+   "виджет"
+  ],
+  "accent": "#F5F7FA",
+  "accent2": "#77808C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fcmluZyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mn_edge",
+  "name": "КРОМКА",
+  "tagline": "Спектр светится из-под нижнего края.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "спектр",
+   "свет",
+   "кромка",
+   "виджет"
+  ],
+  "accent": "#CFE8FF",
+  "accent2": "#41566B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fZWRnZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mn_shadow",
+  "name": "ТЕНЬ",
+  "tagline": "Тёмная волна расходится по кадру.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "тень",
+   "волна",
+   "затемнение",
+   "виджет"
+  ],
+  "accent": "#C9D4E0",
+  "accent2": "#3A4450",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fc2hhZG93IiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "mn_trace",
+  "name": "СЛЕД",
+  "tagline": "Светлячок тянет тающий хвост.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "след",
+   "точка",
+   "хвост",
+   "виджет"
+  ],
+  "accent": "#EAF2FF",
+  "accent2": "#5C6B7F",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fdHJhY2UiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mn_frame",
+  "name": "СКОБКИ",
+  "tagline": "Уголки видоискателя дышат по кадру.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "рамка",
+   "уголки",
+   "видоискатель",
+   "виджет"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#7A8494",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fZnJhbWUiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mn_dust",
+  "name": "ПЫЛЬ",
+  "tagline": "Светящиеся пылинки всплывают в луче.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "пыль",
+   "частицы",
+   "боке",
+   "виджет"
+  ],
+  "accent": "#FFF0D8",
+  "accent2": "#6E6250",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fZHVzdCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mn_crack",
+  "name": "РАЗЛОМ",
+  "tagline": "Светящаяся трещина рвёт кадр на бите.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "трещина",
+   "разлом",
+   "глитч",
+   "виджет"
+  ],
+  "accent": "#DCE8FF",
+  "accent2": "#46536B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fY3JhY2siLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mn_rec",
+  "name": "МЕТКА",
+  "tagline": "Индикатор записи и живой таймкод.",
+  "category": "Minimal",
+  "tags": [
+   "минимал",
+   "запись",
+   "таймкод",
+   "видоискатель",
+   "виджет"
+  ],
+  "accent": "#FF5A5A",
+  "accent2": "#8A9099",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibW5fcmVjIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "wv_twin",
+  "name": "ДВОЙНАЯ НИТЬ",
+  "tagline": "Две зеркальные нити расходятся на басу.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "линия",
+   "нить",
+   "зеркало",
+   "минимал"
+  ],
+  "accent": "#DFF3FF",
+  "accent2": "#4E6E85",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfdHdpbiIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "wv_ecg",
+  "name": "КАРДИОГРАММА",
+  "tagline": "Ровная линия выстреливает пиком на удар.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "пик",
+   "кардиограмма",
+   "бит",
+   "минимал"
+  ],
+  "accent": "#8CFFC1",
+  "accent2": "#2F6B4F",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfZWNnIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "wv_ribbon",
+  "name": "ЛЕНТА",
+  "tagline": "Широкая волна с заливкой, как дорожка в редакторе.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "лента",
+   "заливка",
+   "дорожка",
+   "минимал"
+  ],
+  "accent": "#CFE8FF",
+  "accent2": "#41566B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfcmliYm9uIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "wv_bars",
+  "name": "ШТРИХИ",
+  "tagline": "Волна из вертикальных штрихов, как аудиодорожка.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "штрихи",
+   "дорожка",
+   "бары",
+   "минимал"
+  ],
+  "accent": "#EAF2FF",
+  "accent2": "#6E7A8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfYmFycyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "wv_crown",
+  "name": "КОРОНА",
+  "tagline": "Волна, замкнутая в кольцо вокруг центра.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "кольцо",
+   "корона",
+   "круг",
+   "минимал"
+  ],
+  "accent": "#FFE9C7",
+  "accent2": "#7A6444",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfY3Jvd24iLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "wv_comet",
+  "name": "КОМЕТА",
+  "tagline": "Волна течёт и тянет за собой светящийся след.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "след",
+   "поток",
+   "комета",
+   "минимал"
+  ],
+  "accent": "#DCE8FF",
+  "accent2": "#46536B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfY29tZXQiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "wv_mirror",
+  "name": "ОТРАЖЕНИЕ",
+  "tagline": "Волна и её отражение с лёгкой рябью.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "отражение",
+   "вода",
+   "зеркало",
+   "минимал"
+  ],
+  "accent": "#CDE7FF",
+  "accent2": "#3E5A72",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3ZfbWlycm9yIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "wv_nodes",
+  "name": "УЗЛЫ",
+  "tagline": "На пиках волны вспыхивают светящиеся узлы.",
+  "category": "Wave",
+  "tags": [
+   "волна",
+   "узлы",
+   "точки",
+   "пики",
+   "минимал"
+  ],
+  "accent": "#FFF0D8",
+  "accent2": "#6E6250",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoid3Zfbm9kZXMiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "pl_tape",
+  "name": "КАССЕТА",
+  "tagline": "Катушки перематывают трек по-настоящему.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "кассета",
+   "ретро",
+   "плёнка",
+   "минимал"
+  ],
+  "accent": "#E8E2D4",
+  "accent2": "#4C463C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfdGFwZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "pl_deck",
+  "name": "ДЕКА",
+  "tagline": "Шкала с делениями и бегунком, как на деке.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "шкала",
+   "деления",
+   "интерфейс",
+   "минимал"
+  ],
+  "accent": "#E9F1FF",
+  "accent2": "#5B6779",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfZGVjayIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "pl_ring",
+  "name": "КОЛЬЦО-ПЛЕЕР",
+  "tagline": "Обложка в круге и кольцо прогресса вокруг.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "кольцо",
+   "обложка",
+   "прогресс",
+   "минимал"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#6E7A8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfcmluZyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "pl_pocket",
+  "name": "КАРМАННЫЙ",
+  "tagline": "Плеер нулевых: экран, колесо, ничего лишнего.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "ретро",
+   "колесо",
+   "экран",
+   "минимал"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#7A8494",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfcG9ja2V0IiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "pl_glass",
+  "name": "СТЕКЛО",
+  "tagline": "Матовая плашка: фон под ней размыт.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "стекло",
+   "блюр",
+   "hud",
+   "минимал"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#8792A4",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfZ2xhc3MiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "pl_radio",
+  "name": "РАДИО",
+  "tagline": "Шкала приёмника с янтарной подсветкой.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "радио",
+   "шкала",
+   "ретро",
+   "минимал"
+  ],
+  "accent": "#FFC98A",
+  "accent2": "#6B4E2E",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfcmFkaW8iLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "pl_spectrum",
+  "name": "СПЕКТР-ПЛЕЕР",
+  "tagline": "Прогресс, собранный из столбиков спектра.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "спектр",
+   "столбики",
+   "прогресс",
+   "минимал"
+  ],
+  "accent": "#CFE6FF",
+  "accent2": "#4A5A6E",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfc3BlY3RydW0iLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "pl_credits",
+  "name": "ТИТРЫ",
+  "tagline": "Строка титров и волосок прогресса под ней.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "титры",
+   "текст",
+   "кино",
+   "минимал"
+  ],
+  "accent": "#F2F4F8",
+  "accent2": "#79818E",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfY3JlZGl0cyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "pl_rec",
+  "name": "РЕКОРДЕР",
+  "tagline": "Студийный тайм-код и шкалы уровня L/R.",
+  "category": "Player",
+  "tags": [
+   "плеер",
+   "запись",
+   "студия",
+   "индикатор",
+   "минимал"
+  ],
+  "accent": "#FF5A4E",
+  "accent2": "#8A9099",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGxfcmVjIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fm_perf",
+  "name": "ПЕРФОРАЦИЯ",
+  "tagline": "Края 35-мм плёнки едут вниз.",
+  "category": "Film",
+  "tags": [
+   "плёнка",
+   "кино",
+   "рамка",
+   "ретро",
+   "минимал"
+  ],
+  "accent": "#F2EFE6",
+  "accent2": "#4A463E",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZm1fcGVyZiIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "fm_count",
+  "name": "СЧЁТЧИК КАДРОВ",
+  "tagline": "Служебная разметка плёнки: номер кадра и код.",
+  "category": "Film",
+  "tags": [
+   "плёнка",
+   "кино",
+   "счётчик",
+   "hud",
+   "минимал"
+  ],
+  "accent": "#F2EFE6",
+  "accent2": "#6A6459",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZm1fY291bnQiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "fm_leader",
+  "name": "РАКОРД",
+  "tagline": "Обратный отсчёт в круге на первых секундах.",
+  "category": "Film",
+  "tags": [
+   "плёнка",
+   "кино",
+   "отсчёт",
+   "интро",
+   "минимал"
+  ],
+  "accent": "#F2EFE6",
+  "accent2": "#5A554C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZm1fbGVhZGVyIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fm_clap",
+  "name": "ХЛОПУШКА",
+  "tagline": "Съёмочная хлопушка с названием трека.",
+  "category": "Film",
+  "tags": [
+   "плёнка",
+   "кино",
+   "интро",
+   "титры",
+   "минимал"
+  ],
+  "accent": "#F2EFE6",
+  "accent2": "#3E3A34",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZm1fY2xhcCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "in_needle",
+  "name": "СТРЕЛКА",
+  "tagline": "Аналоговый VU: стрелка с инерцией и перелётом.",
+  "category": "Instrument",
+  "tags": [
+   "прибор",
+   "vu",
+   "стрелка",
+   "студия",
+   "ретро"
+  ],
+  "accent": "#FFE9C2",
+  "accent2": "#8A6A3A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiaW5fbmVlZGxlIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "in_peak",
+  "name": "ПИК-МЕТР",
+  "tagline": "Столбики с меткой пика, которая медленно сползает.",
+  "category": "Instrument",
+  "tags": [
+   "прибор",
+   "пик",
+   "метр",
+   "уровень",
+   "студия"
+  ],
+  "accent": "#CFE8FF",
+  "accent2": "#3E6B8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiaW5fcGVhayIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "in_scale",
+  "name": "ШКАЛА",
+  "tagline": "Лента уровня с делениями и цифрами в децибелах.",
+  "category": "Instrument",
+  "tags": [
+   "прибор",
+   "шкала",
+   "дб",
+   "уровень",
+   "студия"
+  ],
+  "accent": "#E8F0FF",
+  "accent2": "#4A5A7A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiaW5fc2NhbGUiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "in_radar",
+  "name": "РАДАР",
+  "tagline": "Развёртка по кругу, удары оставляют затухающие отметки.",
+  "category": "Instrument",
+  "tags": [
+   "прибор",
+   "радар",
+   "развёртка",
+   "сонар",
+   "бит"
+  ],
+  "accent": "#7FFFB2",
+  "accent2": "#1E6B44",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiaW5fcmFkYXIiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "br_ladder",
+  "name": "ЛЕСТНИЦА",
+  "tagline": "Спектр с шапками пиков, которые медленно оседают.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "спектр",
+   "эквалайзер",
+   "пик",
+   "классика"
+  ],
+  "accent": "#8FE3FF",
+  "accent2": "#2E5A78",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfbGFkZGVyIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "br_ring",
+  "name": "КОЛЬЦО",
+  "tagline": "Столбики спектра растут наружу по кругу.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "кольцо",
+   "радиальный",
+   "спектр",
+   "центр"
+  ],
+  "accent": "#FFB35C",
+  "accent2": "#7A4818",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfcmluZyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "br_led",
+  "name": "LED-МАТРИЦА",
+  "tagline": "Столбики набраны сегментами, как на индикаторе.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "led",
+   "сегменты",
+   "индикатор",
+   "ретро"
+  ],
+  "accent": "#66FF9E",
+  "accent2": "#1F5C38",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfbGVkIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "br_liquid",
+  "name": "ЖИДКОСТЬ",
+  "tagline": "Столбики с текучим верхом: на ударе срываются капли.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "жидкость",
+   "капли",
+   "спектр",
+   "физика"
+  ],
+  "accent": "#7FD4FF",
+  "accent2": "#2A5A7A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfbGlxdWlkIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "br_tube",
+  "name": "ТРУБКИ",
+  "tagline": "Стеклянные трубки со светящимся столбом внутри.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "трубки",
+   "неон",
+   "стекло",
+   "свет"
+  ],
+  "accent": "#5CFFE0",
+  "accent2": "#1C5C54",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfdHViZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "br_time",
+  "name": "ЛЕНТА ВРЕМЕНИ",
+  "tagline": "Столбик на каждый момент: рисунок последних секунд.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "время",
+   "история",
+   "громкость",
+   "лента"
+  ],
+  "accent": "#B6FF7A",
+  "accent2": "#3E6B2A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfdGltZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "br_reveal",
+  "name": "ПРОСВЕТ",
+  "tagline": "Столбики не рисуются, а прорезают затемнение кадра.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "вырез",
+   "маска",
+   "фото",
+   "затемнение"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#6E7A8C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfcmV2ZWFsIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "br_wings",
+  "name": "КРЫЛЬЯ",
+  "tagline": "Столбики расходятся от центра в обе стороны.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "крылья",
+   "центр",
+   "горизонт",
+   "симметрия"
+  ],
+  "accent": "#FF7ACF",
+  "accent2": "#6B2A57",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfd2luZ3MiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "br_depth",
+  "name": "ПЕРСПЕКТИВА",
+  "tagline": "Ряд столбиков уходит вглубь кадра.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "перспектива",
+   "глубина",
+   "ряд",
+   "объём"
+  ],
+  "accent": "#9FB8FF",
+  "accent2": "#33436B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfZGVwdGgiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "br_comb",
+  "name": "ГРЕБЁНКА",
+  "tagline": "Частые тонкие штрихи полосой во всю ширину.",
+  "category": "Bar",
+  "tags": [
+   "бары",
+   "гребёнка",
+   "штрихи",
+   "полоса",
+   "минимал"
+  ],
+  "accent": "#E8EEF6",
+  "accent2": "#5A6472",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYnJfY29tYiIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "gr_coords",
+  "name": "КООРДИНАТЫ",
+  "tagline": "Метки по краям кадра с цифрами.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "координаты",
+   "метки",
+   "типографика",
+   "hud"
+  ],
+  "accent": "#DCE4EE",
+  "accent2": "#5C6878",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3JfY29vcmRzIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "gr_frame",
+  "name": "РАМКА",
+  "tagline": "Углы кадрирования сжимаются на удар.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "рамка",
+   "углы",
+   "кадр",
+   "видоискатель"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#78849A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3JfZnJhbWUiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "gr_num",
+  "name": "НОМЕР",
+  "tagline": "Огромный номер трека в углу кадра.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "номер",
+   "типографика",
+   "обложка",
+   "крупно"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#6E7A8C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3JfbnVtIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "gr_tag",
+  "name": "МЕТКА",
+  "tagline": "Штрих-код и техстрока: длительность, формат, дата.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "метка",
+   "штрихкод",
+   "данные",
+   "типографика"
+  ],
+  "accent": "#E6ECF4",
+  "accent2": "#5F6B7C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3JfdGFnIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "gr_mod",
+  "name": "РАЗМЕТКА",
+  "tagline": "Модульная сетка, ячейки подсвечиваются по спектру.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "модуль",
+   "ячейки",
+   "спектр",
+   "типографика"
+  ],
+  "accent": "#9FD8FF",
+  "accent2": "#3A5568",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3JfbW9kIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "gr_note",
+  "name": "СНОСКА",
+  "tagline": "Выноска с подписью указывает в точку кадра.",
+  "category": "Grid",
+  "tags": [
+   "сетка",
+   "выноска",
+   "подпись",
+   "типографика",
+   "hud"
+  ],
+  "accent": "#FFE7A8",
+  "accent2": "#7A6432",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZ3Jfbm90ZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "air_chat",
+  "name": "КОММЕНТЫ",
+  "tagline": "Сообщения всплывают снизу и уезжают вверх.",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "чат",
+   "комменты",
+   "стрим",
+   "соцсети"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#7A8595",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX2NoYXQiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "air_hearts",
+  "name": "СЕРДЦА",
+  "tagline": "Поток реакций из угла, залп на дропе.",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "лайки",
+   "реакции",
+   "сердца",
+   "соцсети"
+  ],
+  "accent": "#FF5C7A",
+  "accent2": "#FFB03A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX2hlYXJ0cyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "air_count",
+  "name": "СЧЁТЧИК",
+  "tagline": "Число слушателей растёт рывками.",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "счётчик",
+   "слушатели",
+   "онлайн",
+   "соцсети"
+  ],
+  "accent": "#7BFF9E",
+  "accent2": "#2C6B42",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX2NvdW50IiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "air_ticker",
+  "name": "ТИКЕР",
+  "tagline": "Бегущая строка «сейчас играет».",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "тикер",
+   "строка",
+   "радио",
+   "бегущая"
+  ],
+  "accent": "#FFD35C",
+  "accent2": "#6B4E12",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX3RpY2tlciIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "air_toast",
+  "name": "ПЛАШКА",
+  "tagline": "Уведомление выезжает и прячется.",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "уведомление",
+   "плашка",
+   "релиз",
+   "соцсети"
+  ],
+  "accent": "#8AB4FF",
+  "accent2": "#33487A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX3RvYXN0IiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "air_eq",
+  "name": "ЭКВАЛАЙЗЕР",
+  "tagline": "Палочки как в стриминге — узнаётся с полувзгляда.",
+  "category": "Air",
+  "tags": [
+   "эфир",
+   "эквалайзер",
+   "стриминг",
+   "иконка",
+   "играет"
+  ],
+  "accent": "#5CE0A0",
+  "accent2": "#245C42",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiYWlyX2VxIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "ph_spring",
+  "name": "ПРУЖИНЫ",
+  "tagline": "Кик запускает волну, она отражается от краёв.",
+  "category": "Physics",
+  "tags": [
+   "физика",
+   "пружина",
+   "волна",
+   "узлы",
+   "струна"
+  ],
+  "accent": "#9FE8FF",
+  "accent2": "#2E5C70",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGhfc3ByaW5nIiwiZyI6MC42LCJzIjowLjMsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "ph_balls",
+  "name": "ШАРЫ",
+  "tagline": "Шарики подпрыгивают на битах и оседают в тишине.",
+  "category": "Physics",
+  "tags": [
+   "физика",
+   "шары",
+   "отскок",
+   "гравитация",
+   "бит"
+  ],
+  "accent": "#FFD08A",
+  "accent2": "#7A4E22",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGhfYmFsbHMiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "ph_dust",
+  "name": "ВИХРЬ",
+  "tagline": "Частицы разлетаются от удара и снова сходятся.",
+  "category": "Physics",
+  "tags": [
+   "физика",
+   "частицы",
+   "вихрь",
+   "удар",
+   "притяжение"
+  ],
+  "accent": "#B9F2FF",
+  "accent2": "#2F5A6B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoicGhfZHVzdCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mp_strip",
+  "name": "ЛЕНТА ТРЕКА",
+  "tagline": "Вся песня полосой: что прошло и где дропы.",
+  "category": "Map",
+  "tags": [
+   "карта",
+   "трек",
+   "волна",
+   "прогресс",
+   "минимал"
+  ],
+  "accent": "#9FE8FF",
+  "accent2": "#3A5A6B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibXBfc3RyaXAiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "mp_drop",
+  "name": "ДО ДРОПА",
+  "tagline": "Обратный отсчёт до ближайшего дропа.",
+  "category": "Map",
+  "tags": [
+   "карта",
+   "дроп",
+   "отсчёт",
+   "бит",
+   "минимал"
+  ],
+  "accent": "#FF9A4E",
+  "accent2": "#6B3A18",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibXBfZHJvcCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mp_section",
+  "name": "СЕКЦИЯ",
+  "tagline": "Ярлык участка: тихо, разгон или дроп.",
+  "category": "Map",
+  "tags": [
+   "карта",
+   "структура",
+   "ярлык",
+   "hud",
+   "минимал"
+  ],
+  "accent": "#E8ECF2",
+  "accent2": "#5F6A7A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibXBfc2VjdGlvbiIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "mp_left",
+  "name": "ОСТАТОК",
+  "tagline": "Кольцо прогресса и сколько ещё осталось.",
+  "category": "Map",
+  "tags": [
+   "карта",
+   "кольцо",
+   "время",
+   "прогресс",
+   "минимал"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#6E7A8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoibXBfbGVmdCIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "ct_wave",
+  "name": "КОНТУР-ВОЛНА",
+  "tagline": "Осциллограмма идёт по кромке объекта.",
+  "category": "Contour",
+  "tags": [
+   "контур",
+   "волна",
+   "силуэт",
+   "глубина",
+   "минимал"
+  ],
+  "accent": "#BFE9FF",
+  "accent2": "#33546B",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiY3Rfd2F2ZSIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "ct_spark",
+  "name": "ИСКРЫ С КРОМКИ",
+  "tagline": "Частицы срываются с контура объекта.",
+  "category": "Contour",
+  "tags": [
+   "контур",
+   "частицы",
+   "силуэт",
+   "глубина",
+   "минимал"
+  ],
+  "accent": "#FFD9A0",
+  "accent2": "#6B4A28",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiY3Rfc3BhcmsiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "ct_bars",
+  "name": "КОНТУР-ЭКВАЛАЙЗЕР",
+  "tagline": "Столбики спектра растут от кромки наружу.",
+  "category": "Contour",
+  "tags": [
+   "контур",
+   "спектр",
+   "силуэт",
+   "глубина",
+   "минимал"
+  ],
+  "accent": "#CFE6FF",
+  "accent2": "#4A5A6E",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiY3RfYmFycyIsImciOjAuNiwicyI6MC4zLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "ct_pulse",
+  "name": "ПУЛЬС ОТ ОБЪЕКТА",
+  "tagline": "Копии контура расходятся волнами наружу.",
+  "category": "Contour",
+  "tags": [
+   "контур",
+   "пульс",
+   "силуэт",
+   "глубина",
+   "минимал"
+  ],
+  "accent": "#FFFFFF",
+  "accent2": "#6E7A8A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiY3RfcHVsc2UiLCJnIjowLjYsInMiOjAuMywic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "fs_photo",
+  "name": "ЖИВОЕ ФОТО",
+  "tagline": "Твоё фото дышит под бит",
+  "category": "Кино",
+  "tags": [
+   "кино",
+   "фото",
+   "дождь",
+   "синемаграф",
+   "свет"
+  ],
+  "accent": "#9AA8B8",
+  "accent2": "#3A4250",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfcGhvdG8iLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_smoke",
+  "name": "ДЫМ",
+  "tagline": "Клубы дыма в луче света",
+  "category": "Кино",
+  "tags": [
+   "кино",
+   "дым",
+   "туман",
+   "свет",
+   "драма"
+  ],
+  "accent": "#E8C48A",
+  "accent2": "#55504A",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfc21va2UiLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_eclipse",
+  "name": "ЗАТМЕНИЕ",
+  "tagline": "Чёрное солнце с живой короной",
+  "category": "Кино",
+  "tags": [
+   "кино",
+   "космос",
+   "затмение",
+   "корона",
+   "трап"
+  ],
+  "accent": "#FFD9A0",
+  "accent2": "#6B4A28",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZWNsaXBzZSIsImciOjAuMywicyI6MCwic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "fs_storm",
+  "name": "ШТОРМ",
+  "tagline": "Молнии в тучах, стена дождя",
+  "category": "Кино",
+  "tags": [
+   "кино",
+   "гроза",
+   "шторм",
+   "молния",
+   "дождь",
+   "драма"
+  ],
+  "accent": "#8FA8CC",
+  "accent2": "#39445C",
+  "photo": false,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfc3Rvcm0iLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_echo",
+  "name": "СТРОБ-ЭХО",
+  "tagline": "Фото-призраки на каждом бите",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "эхо",
+   "строб",
+   "velocity",
+   "бит"
+  ],
+  "accent": "#C9A8F2",
+  "accent2": "#5C3F7A",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZWNobyIsImciOjAuMywicyI6MCwic3AiOjEsImJsIjowLjM1LCJ0cyI6eyJmb250SWQiOiJ1bmJvdW5kZWQiLCJwb3NpdGlvbiI6ImJvdHRvbSJ9fQ"
+ },
+ {
+  "id": "fs_vhs",
+  "name": "VHS",
+  "tagline": "Кассета из 90-х",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "ретро",
+   "vhs",
+   "кассета",
+   "глитч"
+  ],
+  "accent": "#B8A6E8",
+  "accent2": "#4A3F66",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfdmhzIiwiZyI6MC4zLCJzIjowLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "fs_depth",
+  "name": "ГЛУБИНА",
+  "tagline": "Фото дышит объёмом",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "3d",
+   "параллакс",
+   "зум",
+   "объём"
+  ],
+  "accent": "#9FC0D8",
+  "accent2": "#3E5468",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZGVwdGgiLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_glitch",
+  "name": "ГЛИТЧ",
+  "tagline": "Кадр рвётся на бите",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "глитч",
+   "датамош",
+   "бит",
+   "кибер"
+  ],
+  "accent": "#7FE8D8",
+  "accent2": "#B84A8C",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZ2xpdGNoIiwiZyI6MC4zLCJzIjowLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "fs_neonscan",
+  "name": "НЕОН-СКАН",
+  "tagline": "Контуры горят неоном",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "неон",
+   "контур",
+   "скан",
+   "кибер"
+  ],
+  "accent": "#33D9FF",
+  "accent2": "#FF4DD9",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfbmVvbnNjYW4iLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_expose",
+  "name": "ДВОЙНАЯ ЭКСПОЗИЦИЯ",
+  "tagline": "Дым течёт сквозь кадр",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "экспозиция",
+   "дым",
+   "арт",
+   "дуотон"
+  ],
+  "accent": "#8FA6D9",
+  "accent2": "#D9B98F",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZXhwb3NlIiwiZyI6MC4zLCJzIjowLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "fs_cinema",
+  "name": "КИНОПЛЁНКА",
+  "tagline": "Старый проектор",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "плёнка",
+   "кино",
+   "ретро",
+   "проектор"
+  ],
+  "accent": "#D9C49A",
+  "accent2": "#5C4E36",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfY2luZW1hIiwiZyI6MC4zLCJzIjowLCJzcCI6MSwiYmwiOjAuMzUsInRzIjp7ImZvbnRJZCI6InVuYm91bmRlZCIsInBvc2l0aW9uIjoiYm90dG9tIn19"
+ },
+ {
+  "id": "fs_disco",
+  "name": "СВЕТОМУЗЫКА",
+  "tagline": "Цветные огни по фото",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "диско",
+   "вечеринка",
+   "свет",
+   "клуб"
+  ],
+  "accent": "#FF6B9E",
+  "accent2": "#4D8CFF",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfZGlzY28iLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ },
+ {
+  "id": "fs_ascii",
+  "name": "ASCII-МАТРИЦА",
+  "tagline": "Кадр собран из кода терминала",
+  "category": "Фото",
+  "tags": [
+   "фото",
+   "матрица",
+   "ascii",
+   "терминал",
+   "киберпанк",
+   "y2k"
+  ],
+  "accent": "#33FF66",
+  "accent2": "#0A3D18",
+  "photo": true,
+  "share": "https://slovo.video/#v=eyJ2IjoxLCJwIjoiZnNfYXNjaWkiLCJnIjowLjMsInMiOjAsInNwIjoxLCJibCI6MC4zNSwidHMiOnsiZm9udElkIjoidW5ib3VuZGVkIiwicG9zaXRpb24iOiJib3R0b20ifX0"
+ }
+]
