@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Как сделать official audio для YouTube — гайд | SLOVO</title>
+    <meta name="description" content="Что такое official audio, чем оно отличается от Art Track дистрибьютора, что YouTube рекомендует для файла — и как собрать официально выглядящий ролик бесплатно." />
+    <link rel="canonical" href="https://slovo.video/official-audio-dlya-youtube/" />
+    <link rel="alternate" hreflang="ru" href="https://slovo.video/official-audio-dlya-youtube/" />
+    <link rel="alternate" hreflang="en" href="https://slovo.video/official-audio-video-youtube/" />
+    <link rel="alternate" hreflang="x-default" href="https://slovo.video/official-audio-video-youtube/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Как сделать official audio для YouTube" />
+    <meta property="og:description" content="Official audio против Art Track от дистрибьютора, рекомендации YouTube по кодированию и бесплатный способ собрать ролик." />
+    <meta property="og:url" content="https://slovo.video/official-audio-dlya-youtube/" />
+    <meta property="og:image" content="https://slovo.video/og/official-audio-dlya-youtube.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="SLOVO" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://slovo.video/og/official-audio-dlya-youtube.jpg" />
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"Article","headline":"Как сделать official audio для YouTube","datePublished":"2026-09-09","dateModified":"2026-09-09","author":{"@type":"Organization","name":"SLOVO","url":"https://slovo.video/"},"publisher":{"@type":"Organization","name":"SLOVO","url":"https://slovo.video/"},"mainEntityOfPage":"https://slovo.video/official-audio-dlya-youtube/","inLanguage":"ru"}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"Что такое Art Track на YouTube?","acceptedAnswer":{"@type":"Answer","text":"По словам самого YouTube — автоматически созданная версия трека с альбома, состоящая из звукозаписи и обложки. Они создаются для партнёров-лейблов и дистрибьюторов, а не загружаются артистом."}},
+        {"@type":"Question","name":"Нужно ли своё official audio, если Art Track уже есть?","acceptedAnswer":{"@type":"Answer","text":"Art Track — статичная обложка поверх записи. Ваша собственная загрузка может двигаться под музыку, нести ваш брендинг, жить на вашем канале и выходить по расписанию релиза. Большинство артистов публикуют и то и другое."}},
+        {"@type":"Question","name":"Какой формат рекомендует YouTube?","acceptedAnswer":{"@type":"Answer","text":"MP4 с moov-атомом в начале, H.264 High Profile с субдискретизацией 4:2:0, звук AAC-LC на 48 кГц, загрузка с той частотой кадров, в которой видео сделано. Для 1080p SDR YouTube советует около 8 Мбит/с видео, для 4K — 35–45 Мбит/с."}},
+        {"@type":"Question","name":"Какое разрешение выбрать?","acceptedAnswer":{"@type":"Answer","text":"1080p — разумное значение по умолчанию; 4K оправдан, когда в визуале есть мелкая фактура — частицы, зерно, градиенты, — которую 1080p замылил бы. 16:9 — стандартный кадр YouTube."}},
+        {"@type":"Question","name":"Писать ли в названии Official Audio?","acceptedAnswer":{"@type":"Answer","text":"Принято: Артист – Название (Official Audio). Это говорит зрителю, что перед ним каноническая загрузка, а не чужой рип, и совпадает с тем, как люди ищут."}}]}
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"SLOVO","item":"https://slovo.video/"},
+        {"@type":"ListItem","position":2,"name":"Инструменты","item":"https://slovo.video/instrumenty/"},
+        {"@type":"ListItem","position":3,"name":"Official audio для YouTube","item":"https://slovo.video/official-audio-dlya-youtube/"}]}
+    </script>
+    <link rel="stylesheet" href="/guide.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header><span class="dot"></span><a href="https://slovo.video/">SLOVO</a></header>
+
+      <p class="muted"><a href="/instrumenty/">Инструменты</a> → Official audio для YouTube</p>
+      <h1>Как сделать official audio для YouTube</h1>
+      <p class="lead">
+        «Official audio» — это загрузка, которая заменяет клип, когда клипа нет: запись, обложка,
+        имя артиста и название, на собственном канале артиста. Этот гайд — о том, что это такое,
+        чем оно отличается от Art Track, который дистрибьютор, возможно, уже создал, что YouTube
+        рекомендует для файла и как собрать ролик, выглядящий официально, за несколько минут.
+      </p>
+      <a class="cta big" href="/video-iz-pesni/" data-cta="1">✨ Сделать official audio бесплатно →</a>
+      <p class="muted">Рекомендации YouTube по кодированию сверены 9 сентября 2026</p>
+
+      <h2>Official audio против Art Track</h2>
+      <p>
+        YouTube описывает Art Track как «автоматически созданную YouTube-версию трека с музыкального
+        альбома», которая «состоит из звукозаписи и обложки». Она создаётся для партнёров-лейблов и
+        дистрибьюторов через Content Manager, а не загружается артистом, и именно она появляется на
+        автоматических каналах «Topic». Это полезно — она существует для каждого трека на каждом
+        альбоме, — но это статичный квадрат поверх записи, и живёт он не на вашем канале.
+      </p>
+      <p>
+        Official audio — ваше. Оно лежит на вашем канале с вашими подписчиками, выходит по
+        расписанию релиза, несёт ваш брендинг и — то, что важно для удержания, — может двигаться
+        под музыку. Большинство артистов публикуют и то и другое: Art Track приходит сам через
+        дистрибьютора, а official audio — та версия, которой они реально делятся.
+      </p>
+
+      <h2>Что YouTube рекомендует для файла</h2>
+      <table class="spec">
+        <tr><td>Контейнер</td><td>MP4, moov-атом в начале файла («fast start»)</td></tr>
+        <tr><td>Видеокодек</td><td>H.264, High Profile, субдискретизация 4:2:0</td></tr>
+        <tr><td>Аудиокодек</td><td>AAC-LC (Opus тоже принимается), 48 кГц; для стерео советуют 384 кбит/с</td></tr>
+        <tr><td>Частота кадров</td><td>Та, в которой видео сделано — 24, 25, 30, 48, 50 или 60</td></tr>
+        <tr><td>Битрейт, 1080p SDR</td><td>около 8 Мбит/с</td></tr>
+        <tr><td>Битрейт, 2160p SDR</td><td>35–45 Мбит/с</td></tr>
+        <tr><td>Кадр</td><td>16:9 — стандарт; другие пропорции играют, плеер подстраивается</td></tr>
+      </table>
+      <p class="muted">
+        Источник: Справка YouTube, «Рекомендуемые настройки кодирования». YouTube перекодирует
+        каждую загрузку, так что речь о чистом исходнике, а не о том, что получит зритель.
+        Экспорт SLOVO следует рекомендациям по контейнеру и видео, а звук пишет в AAC на
+        192 кбит/с — ниже советуемых 384, для музыкального визуала это прозрачно; если нужна
+        цифра выше, подклейте мастер после.
+      </p>
+
+      <h2>Что делает ролик официальным на вид</h2>
+      <ul>
+        <li><b>Обложка в центре</b>, квадратная, резкая, с воздухом вокруг. Это раскладка, которую каждый слушатель узнаёт по стримингам.</li>
+        <li><b>Артист и название на экране</b> — видео должно называть себя даже во встроенном плеере без подписи.</li>
+        <li><b>Движение, идущее за треком</b>, а не за таймером. Кольцо, пульсирующее спектром, частицы на бочке, лёгкое дыхание арта. Статичная картинка читается как Art Track; движущаяся — как релиз.</li>
+        <li><b>Единый вид по всему каталогу</b>: одна раскладка, один шрифт, разный арт. Канал, где все аудио совпадают, выглядит как лейбл.</li>
+        <li><b>Обложка 1280×720</b>, которая и есть арт, а не случайный кадр.</li>
+      </ul>
+
+      <h2>Разрешение и длина</h2>
+      <p>
+        1080p — разумное значение по умолчанию и то, в чём смотрит большинство. 4K окупает время
+        рендера, когда в визуале есть мелкая фактура — частицы, зерно плёнки, плавные градиенты, —
+        потому что на низком битрейте они дают бандинг и мыло; простая обложка на тёмном фоне от
+        4K не выигрывает ничего. Видео должно быть длиной в весь трек: official audio — место, куда
+        приходят послушать целиком, и обрезка читается как тизер.
+      </p>
+
+      <h2>Сборка в SLOVO</h2>
+      <ol>
+        <li><b>Загрузите мастер</b> — MP3, WAV, FLAC, M4A или OGG. Он остаётся на вашем устройстве.</li>
+        <li><b>Выберите лого-сцену</b> — «Official» — чистая карточка, «Лого-пульс» окружает арт спектром, «Золото» и «Молния» — драматичные варианты. Все — на странице <a href="/logo-vizualizator/">лого-визуализатора</a>.</li>
+        <li><b>Добавьте обложку, артиста и название</b> — вводятся один раз, расставляются мышью.</li>
+        <li><b>Выберите 16:9 и 1080p или 4K</b> и экспортируйте. Файл — MP4 с H.264 High Profile и fast start, готов к загрузке.</li>
+        <li><b>Соберите обложку</b> из того же проекта — 1280×720, арт по центру.</li>
+      </ol>
+      <p>
+        Страница <a href="/video-iz-pesni/">видео из песни</a> проходит тот же путь подробнее, а
+        <a href="/subtitry-k-pesne/">субтитры к песне</a> — для случая, когда слова тоже нужны на
+        экране.
+      </p>
+
+      <h2>Название, описание, теги</h2>
+      <p>
+        Принято: <i>Артист – Название (Official Audio)</i>. Так люди ищут, и так понятно, что это
+        каноническая загрузка, а не рип. В описании — сначала ссылки на стриминги, потом кредиты,
+        потом текст песни: слова помогают ролику всплывать у тех, кто ищет запомнившуюся строчку.
+        Если музыка сделана с помощью ИИ, сверьтесь с актуальными правилами YouTube о раскрытии —
+        они меняются.
+      </p>
+
+      <h2>Частые вопросы</h2>
+      <div class="faq">
+        <b>Что такое Art Track на YouTube?</b>
+        <span>По словам YouTube — автоматически созданная версия трека из звукозаписи и обложки, для партнёров-лейблов и дистрибьюторов.</span>
+        <b>Нужно ли своё official audio, если Art Track есть?</b>
+        <span>Art Track — статичная обложка поверх записи. Своя загрузка двигается под музыку, несёт брендинг и живёт на вашем канале. Большинство публикуют оба.</span>
+        <b>Какой формат рекомендует YouTube?</b>
+        <span>MP4 с fast start, H.264 High Profile 4:2:0, AAC-LC 48 кГц, исходная частота кадров; около 8 Мбит/с для 1080p SDR, 35–45 для 4K.</span>
+        <b>Какое разрешение выбрать?</b>
+        <span>1080p по умолчанию; 4K — когда есть мелкая фактура, которую 1080p замылит. Кадр 16:9.</span>
+        <b>Писать ли в названии Official Audio?</b>
+        <span>Да — Артист – Название (Official Audio). Это знак канонической загрузки и так ищут.</span>
+      </div>
+
+      <p style="margin-top:32px"><a class="cta big" href="/video-iz-pesni/" data-cta="1">✨ Сделать official audio бесплатно →</a></p>
+
+      <footer>
+        <p><b>Ещё инструменты:</b>
+          <a href="/instrumenty/">Все инструменты</a> ·
+          <a href="/video-iz-pesni/">Видео из песни</a> ·
+          <a href="/logo-vizualizator/">Лого-визуализатор</a> ·
+          <a href="/trebovaniya-spotify-canvas/">Требования Spotify Canvas</a> ·
+          <a href="/bezopasnye-zony-tiktok-reels-shorts/">Безопасные зоны TikTok, Reels и Shorts</a></p>
+        <p>SLOVO — бесплатный визуализатор музыки в браузере. <a href="https://slovo.video/">Открыть →</a></p>
+      </footer>
+    </div>
+    <script src="/guide.js" defer></script>
+  </body>
+</html>
