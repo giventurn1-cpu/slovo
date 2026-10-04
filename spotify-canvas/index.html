@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title>Free Spotify Canvas Maker — create a looping canvas video in your browser | SLOVO</title>
+    <meta name="description" content="Make a free Spotify Canvas online: a 3–8s vertical looping video in the exact 9:16 format Spotify wants. No login, no watermark, everything runs in your browser. Add beat-reactive visuals to your track in a minute." />
+    <link rel="canonical" href="https://slovo.video/spotify-canvas/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Free Spotify Canvas Maker — in your browser" />
+    <meta property="og:description" content="Create a 3–8s looping Spotify Canvas in 9:16. Free, no login, no watermark, private — runs in your browser." />
+    <meta property="og:url" content="https://slovo.video/spotify-canvas/" />
+    <meta property="og:image" content="https://slovo.video/og/spotify-canvas.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="SLOVO" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://slovo.video/og/spotify-canvas.jpg" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to make a free Spotify Canvas",
+        "totalTime": "PT2M",
+        "tool": {
+          "@type": "HowToTool",
+          "name": "SLOVO (browser, free)"
+        },
+        "step": [
+          {
+            "@type": "HowToStep",
+            "name": "Open slovo.video",
+            "text": "Open slovo.video in Chrome or Edge on your computer."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Load your track",
+            "text": "Load your track — drop an MP3 or WAV. It stays on your device; nothing is uploaded."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Pick a look",
+            "text": "Pick a look — choose a beat-reactive visual, or use your own photo or video loop as the background. Add subtitles if you want lyrics on screen."
+          },
+          {
+            "@type": "HowToStep",
+            "name": "Export → Canvas",
+            "text": "Export → Canvas — save a silent 3–8s, 9:16 MP4, then upload it in Spotify for Artists."
+          }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          { "@type": "Question", "name": "What is a Spotify Canvas?", "acceptedAnswer": { "@type": "Answer", "text": "A Spotify Canvas is a short looping vertical video (3–8 seconds, 9:16) that plays behind your track in the Spotify app instead of the static cover art." } },
+          { "@type": "Question", "name": "Is it really free?", "acceptedAnswer": { "@type": "Answer", "text": "Yes — free, no account, no watermark. You can turn the small SLOVO badge off before export." } },
+          { "@type": "Question", "name": "Can I make a Canvas without loading the song?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Choose a video without music, type the length — 8 seconds, for example — and export: the file has no audio track at all, which is what Spotify asks for." } },
+          { "@type": "Question", "name": "Will the loop restart without a jump?", "acceptedAnswer": { "@type": "Answer", "text": "It depends on the motion. Slow scenes such as 3D PHOTO or SMOKE drift so gently that the restart is hard to notice; keep the beat switch off and avoid scenes that flash, and the seam stays soft." } },
+          { "@type": "Question", "name": "What format does Spotify Canvas require?", "acceptedAnswer": { "@type": "Answer", "text": "Vertical 9:16, 3–8 seconds, at least 720×1280, MP4, and it loops silently. SLOVO exports exactly this from the Canvas mode." } },
+          { "@type": "Question", "name": "Do I need to install anything?", "acceptedAnswer": { "@type": "Answer", "text": "No. It's a website. Use Chrome or Edge on desktop for the fast MP4 export." } },
+          { "@type": "Question", "name": "Can I use my own video as the Canvas?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Drop a short clip as the background, loop it seamlessly, and add beat effects on top." } },
+          { "@type": "Question", "name": "Where do I upload the Canvas?", "acceptedAnswer": { "@type": "Answer", "text": "In Spotify for Artists → your track → Canvas. Upload the 9:16 MP4 you exported." } }
+        ]
+      }
+    </script>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"ItemList","name":"Canvas loops made from one photo in SLOVO","itemListElement":[
+        {"@type":"ListItem","position":1,"item":{"@type":"VideoObject","name":"3D Photo","description":"Real 3D from a single photo: the subject is separated, the background behind it is filled in, and the camera moves around the scene.","thumbnailUrl":"https://slovo.video/media/3d-photo.jpg","contentUrl":"https://slovo.video/media/3d-photo.mp4","uploadDate":"2026-10-04","duration":"PT12S","isFamilyFriendly":true}},
+        {"@type":"ListItem","position":2,"item":{"@type":"VideoObject","name":"Smoke","description":"The photo inside a smoky scene, with the light standing right behind the head.","thumbnailUrl":"https://slovo.video/media/smoke.jpg","contentUrl":"https://slovo.video/media/smoke.mp4","uploadDate":"2026-10-04","duration":"PT8S","isFamilyFriendly":true}}]}
+    </script>
+    <style>
+      :root { --bg:#0b0c10; --card:#14161d; --line:#222634; --text:#e7e9ee; --muted:#98a2b3; --accent:#ff2e4d; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:var(--bg); color:var(--text); font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; -webkit-font-smoothing:antialiased; }
+      .wrap { max-width:760px; margin:0 auto; padding:40px 20px 64px; }
+      header { display:flex; align-items:center; gap:10px; margin-bottom:36px; }
+      header .dot { width:14px; height:14px; border-radius:50%; background:radial-gradient(circle at 50% 40%,#ff5b73,#9b1b30); box-shadow:0 0 18px #ff2e4d80; }
+      header a { color:var(--text); text-decoration:none; font-weight:800; letter-spacing:.08em; font-size:15px; }
+      h1 { font-size:clamp(28px,6vw,44px); line-height:1.15; margin:0 0 14px; letter-spacing:-.01em; }
+      .lead { font-size:18px; color:var(--muted); margin:0 0 28px; }
+      h2 { font-size:22px; margin:40px 0 12px; }
+      p { margin:0 0 14px; }
+      a { color:var(--accent); }
+      .cta { display:inline-flex; align-items:center; gap:8px; background:linear-gradient(120deg,#ff2e4d,#9b1b30); color:#fff; text-decoration:none; font-weight:700; padding:15px 26px; border-radius:14px; font-size:17px; box-shadow:0 8px 30px #ff2e4d40; }
+      .cta.big { margin:10px 0 6px; }
+      .spec { width:100%; border-collapse:collapse; margin:8px 0 8px; font-size:15px; }
+      .spec td { border:1px solid var(--line); padding:9px 12px; }
+      .spec td:first-child { color:var(--muted); width:44%; }
+      ol { padding-left:20px; } ol li { margin:8px 0; }
+      .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px 20px; margin:14px 0; }
+      .faq b { display:block; margin-top:14px; }
+      .faq span { color:var(--muted); }
+      footer { margin-top:48px; padding-top:20px; border-top:1px solid var(--line); color:var(--muted); font-size:14px; }
+      .muted { color:var(--muted); font-size:14px; }
+      /* плитки роликов — те же, что в /guide.css (страница его не подключает) */
+      .demos { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin:18px 0 8px; }
+      .tile { margin:0; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+      .tile video { display:block; width:100%; aspect-ratio:9/16; object-fit:cover; background:#000; }
+      .tile figcaption { padding:10px 12px 12px; }
+      .tile b { display:block; font-size:13px; letter-spacing:.04em; }
+      .tile span { display:block; color:var(--muted); font-size:12px; line-height:1.4; margin:3px 0 8px; }
+    </style>
+    <script type="application/ld+json">
+      {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"SLOVO","item":"https://slovo.video/"},
+        {"@type":"ListItem","position":2,"name":"Free tools","item":"https://slovo.video/tools/"},
+        {"@type":"ListItem","position":3,"name":"Spotify Canvas maker","item":"https://slovo.video/spotify-canvas/"}]}
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header><span class="dot"></span><a href="https://slovo.video/">SLOVO</a></header>
+
+      <h1>Free Spotify Canvas maker — right in your browser</h1>
+      <p class="lead">
+        Turn your track into a looping <strong>Spotify Canvas</strong>: a short 3–8 second vertical
+        video in the exact 9:16 format Spotify wants. Free, no login, no watermark — and everything
+        is rendered in your browser, so your audio never leaves your device.
+      </p>
+      <a class="cta big" href="https://slovo.video/?vibe=canvas" data-cta="1">✨ Make my Canvas free →</a>
+      <p class="muted">Works in Chrome or Edge on desktop. Nothing to install.</p>
+
+      <h2>What is a Spotify Canvas?</h2>
+      <p>
+        A Canvas is the short looping video that plays behind your song in the Spotify app instead of
+        the static cover. Artists use it because it makes a track feel alive — and Spotify has said
+        Canvas can lift streams and saves. To upload one in Spotify for Artists it has to match a
+        strict spec:
+      </p>
+      <table class="spec">
+        <tr><td>Aspect ratio</td><td>9:16 (vertical)</td></tr>
+        <tr><td>Length</td><td>3–8 seconds, loops seamlessly</td></tr>
+        <tr><td>Resolution</td><td>720×1280 or higher</td></tr>
+        <tr><td>File</td><td>MP4, no sound</td></tr>
+      </table>
+      <p>SLOVO's <strong>Canvas mode</strong> exports exactly this — you don't have to worry about the numbers.</p>
+
+      <h2>How to make a Spotify Canvas for free</h2>
+      <ol>
+        <li><strong>Open <a href="https://slovo.video/">slovo.video</a></strong> in Chrome or Edge on your computer.</li>
+        <li><strong>Load your track</strong> — drop an MP3 or WAV. It stays on your device; nothing is uploaded.</li>
+        <li><strong>Pick a look</strong> — choose a beat-reactive visual, or use your own photo or video loop as the background. Add subtitles if you want lyrics on screen.</li>
+        <li><strong>Export → Canvas</strong> — save a silent 3–8s, 9:16 MP4, then upload it in Spotify for Artists.</li>
+      </ol>
+      <a class="cta" href="https://slovo.video/?vibe=canvas" data-cta="1">Open the Canvas maker →</a>
+
+      <h2>Why make your Canvas in SLOVO</h2>
+      <div class="card">
+        <p><strong>Free &amp; no watermark.</strong> No subscription, no login, no logo slapped on your video.</p>
+        <p><strong>Private.</strong> Your song and video are processed in the browser — they never touch a server.</p>
+        <p><strong>Reacts to the beat.</strong> Presets pulse, punch and glow with your music; you can even make your own video loop physically react to the sound.</p>
+        <p><strong>Lyrics built in.</strong> Auto-generate subtitles in English, Ukrainian, Russian or Polish and burn them into the loop.</p>
+      </div>
+
+      <h2>FAQ</h2>
+      <div class="faq">
+        <b>What is a Spotify Canvas?</b>
+        <span>A Spotify Canvas is a short looping vertical video (3–8 seconds, 9:16) that plays behind your track in the Spotify app instead of the static cover art.</span>
+        <b>Is it really free?</b>
+        <span>Yes — free, no account, no watermark. You can turn the small SLOVO badge off before export.</span>
+        <b>Can I make a Canvas without loading the song?</b>
+        <span>Yes. Choose a video without music, type the length — 8 seconds, for example — and export: the file has no audio track at all, which is what Spotify asks for.</span>
+        <b>Will the loop restart without a jump?</b>
+        <span>It depends on the motion. Slow scenes such as 3D PHOTO or SMOKE drift so gently that the restart is hard to notice; keep the beat switch off and avoid scenes that flash, and the seam stays soft.</span>
+        <b>What format does Spotify Canvas require?</b>
+        <span>Vertical 9:16, 3–8 seconds, at least 720×1280, MP4, and it loops silently. SLOVO exports exactly this from the Canvas mode.</span>
+        <b>Do I need to install anything?</b>
+        <span>No. It's a website. Use Chrome or Edge on desktop for the fast MP4 export.</span>
+        <b>Can I use my own video as the Canvas?</b>
+        <span>Yes. Drop a short clip as the background, loop it seamlessly, and add beat effects on top.</span>
+        <b>Where do I upload the Canvas?</b>
+        <span>In Spotify for Artists → your track → Canvas. Upload the 9:16 MP4 you exported.</span>
+      </div>
+
+
+      <h2>What makes a Canvas loop work</h2>
+      <p>
+        A Canvas is three to eight seconds long and repeats forever while somebody listens, which
+        makes it a very different object from a music video. Two rules follow from that. It has to
+        loop without a visible seam, because the join is the thing a repeated clip trains the eye to
+        find. And it has to survive being watched a hundred times, which means slow, hypnotic motion
+        beats a fast cut every time — anything frantic becomes irritating by the third play.
+      </p>
+
+      <h2>Silent by design</h2>
+      <p>
+        The loop carries no audio: the listener already has the song playing. That is why the export
+        here is built as a silent file rather than a video with the sound stripped out afterwards.
+        It also means the visual has to carry the mood alone, which is a good argument for using
+        your own artwork or a photograph rather than a generic template.
+      </p>
+
+      <h2>Use your own frame — in real 3D</h2>
+      <p>
+        Cover art works, but a still photograph in 3D often works better. Pick the 3D PHOTO card and
+        a neural network in your browser builds depth from the picture: the subject is lifted off the
+        background, the background hidden behind them is filled in, and a slow camera move turns a
+        single image into a loop that reads as filmed rather than generated. The models download
+        once; the photo never leaves your device. See the <a href="/3d-photo-effect/">3D photo
+        effect</a> page for how it works.
+      </p>
+
+      <div class="demos">
+        <figure class="tile tall">
+          <video muted loop playsinline preload="none" poster="/media/3d-photo.jpg" data-src="/media/3d-photo.mp4" width="540" height="960" aria-label="3D Photo"></video>
+          <figcaption><b>3D PHOTO</b><span>A slow camera move through a single photo — a Canvas-sized loop.</span></figcaption>
+        </figure>
+        <figure class="tile tall">
+          <video muted loop playsinline preload="none" poster="/media/smoke.jpg" data-src="/media/smoke.mp4" width="540" height="960" aria-label="Smoke"></video>
+          <figcaption><b>SMOKE</b><span>A portrait in drifting smoke, backlit from behind the head.</span></figcaption>
+        </figure>
+      </div>
+
+      <h2>No track needed: a video without music</h2>
+      <p>
+        A Canvas has no sound, so you do not even need to load the song. Choose a video without
+        music, type the length — 8 seconds is the classic choice — and export: the file comes out
+        with no audio track at all, which is exactly what Spotify asks for. Turn the beat switch off
+        in the top bar and nothing pulses; the photo just drifts in depth, which is what a loop that
+        plays behind a song for minutes should do.
+      </p>
+
+      <h2>A Canvas from one photo, step by step</h2>
+      <ol>
+        <li><b>Drop the photo</b> — the cover shot, a portrait, a frame from the shoot.</li>
+        <li><b>Pick 3D PHOTO</b> — the depth models download once, then the camera starts to move.</li>
+        <li><b>Choose a video without music</b> — type 8 seconds and set the format to 9:16.</li>
+        <li><b>Turn the beat switch off</b> — for a Canvas, calm beats busy.</li>
+        <li><b>Export</b> — a silent MP4, ready for Spotify for Artists.</li>
+      </ol>
+      <p>
+        The same route works with any other visual: SMOKE for a portrait in drifting smoke with the
+        light behind the head, LIVE PHOTO for a frame that breathes, or OFFICIAL with your cover in
+        the centre over a liquid background. Whatever you pick, keep the motion slow and the first
+        and last frames similar, so the loop has no visible jump when it restarts.
+      </p>
+
+      <h2>Three looks that work as a Canvas</h2>
+      <p>
+        <b>Depth.</b> 3D PHOTO on the cover photo or a portrait — the slowest and most “filmed”
+        option, and the one that survives hours of looping without getting tiring. <b>Atmosphere.</b>
+        SMOKE or LIVE PHOTO on a portrait: drifting smoke with light behind the head, or a frame
+        whose bright parts breathe softly. <b>The cover itself.</b> OFFICIAL keeps the square art in
+        the centre, the way listeners recognise a release, over a background that slowly sinks into
+        the depth. Avoid anything that flashes or cuts: on loop it becomes tiring, and it runs into
+        Spotify’s content guidelines.
+      </p>
+
+      <h2>How to get it onto Spotify</h2>
+      <p>
+        SLOVO produces the file; uploading it is done in Spotify for Artists, where Canvas is
+        attached per track. Requirements are set by Spotify and change from time to time, so check
+        their current guidance before uploading — the export here targets the standard vertical
+        format and the three-to-eight-second window.
+      </p>
+
+      <h2>While you are here</h2>
+      <p>
+        The same project also gives you the other pieces of a release: a 9:16 clip for
+        <a href="/vertical-music-video/">TikTok, Reels and Shorts</a>, a 16:9 upload for YouTube,
+        and a <a href="/lyric-video-maker/">lyric video</a> if the song leans on its words. Building
+        them together keeps one visual identity across every place the track appears.
+      </p>
+
+      <p style="margin-top:32px"><a class="cta big" href="https://slovo.video/?vibe=canvas" data-cta="1">✨ Make my Spotify Canvas →</a></p>
+
+      <footer>
+        <p><b>More free tools:</b>
+          <a href="/tools/">All free tools</a> ·
+          <a href="/music-visualizer/">Music visualizer</a> ·
+          <a href="/song-to-video/">Song to video</a> ·
+          <a href="/lyric-video-maker/">Lyric video maker</a> ·
+          <a href="/vertical-music-video/">Vertical video for TikTok & Reels</a> ·
+          <a href="/animate-photo-with-music/">Animate a photo with music</a></p>
+        <p>SLOVO — a free, private music visualizer that runs in your browser. Turn any track into a
+        release video with subtitles in about a minute. <a href="https://slovo.video/">slovo.video</a></p>
+      </footer>
+    </div>
+
+    <script src="/guide.js" defer></script>
+    <script>
+      // Ролики грузятся, только когда видны, и встают на паузу за экраном
+      (function () {
+        var vids = [].slice.call(document.querySelectorAll('video[data-src]'));
+        if (!('IntersectionObserver' in window)) { vids.forEach(function (v) { v.src = v.dataset.src; }); return; }
+        var io = new IntersectionObserver(function (es) {
+          es.forEach(function (e) {
+            var v = e.target;
+            if (e.isIntersecting) { if (!v.src) v.src = v.dataset.src; v.play().catch(function () {}); }
+            else if (v.src) v.pause();
+          });
+        }, { rootMargin: '120px' });
+        vids.forEach(function (v) { io.observe(v); });
+      })();
+    </script>
+  </body>
+</html>
