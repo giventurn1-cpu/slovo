@@ -1,0 +1,49 @@
+SLOVO — сторонние модели и библиотеки / third-party models and libraries
+=======================================================================
+
+Всё считается в браузере. Модели качаются, только когда нужны, и только веса —
+ваши файлы никуда не уходят.
+Everything runs in your browser. Models are downloaded only when needed
+(weights only); your files never leave the device.
+
+Модели / Models
+---------------
+
+Depth Anything V2 Small — карта глубины для «настоящего 3D» / depth map for "real 3D"
+  Authors: Lihe Yang, Bingyi Kang, Zilong Huang, Zhen Zhao, Xiaogang Xu,
+  Jiashi Feng, Hengshuang Zhao.
+  License: Apache License 2.0.
+  Weights (ONNX, onnx-community): https://huggingface.co/onnx-community/depth-anything-v2-small
+  Original: https://huggingface.co/depth-anything/Depth-Anything-V2-Small
+
+MODNet — автовырезание объекта / object cut-out
+  Authors: Zhanghan Ke, Jiayu Sun, Kaican Li, Qiong Yan, Rynson W.H. Lau
+  (AAAI 2022).
+  License: Apache License 2.0 (code and models).
+  Code: https://github.com/ZHKKKe/MODNet
+  Weights (ONNX, Xenova): https://huggingface.co/Xenova/modnet
+
+Beat This! (small0) — доли и такты для сборки из фото / beats and bars for photo sequences
+  Authors: Francesco Foscarin, Jan Schlüter, Gerhard Widmer — Institute of
+  Computational Perception, JKU Linz (ISMIR 2024).
+  License: MIT (code and weights), full text: models/LICENSE-beat-this.txt
+  Code and weights: https://github.com/CPJKU/beat_this
+  ONNX: converted by SLOVO from the official small0 checkpoint; served from this site.
+
+MI-GAN (512, Places2) — дорисовка фона за объектом для «настоящего 3D» / background fill behind the subject for "real 3D"
+  Authors: Andranik Sargsyan, Shant Navasardyan, Xingqian Xu, Humphrey Shi —
+  Picsart AI Research (ICCV 2023).
+  License: MIT (code and weights), full text: models/LICENSE-migan.txt
+  Code: https://github.com/Picsart-AI-Research/MI-GAN
+  Weights (ONNX pipeline by the authors): https://huggingface.co/andraniksargsyan/migan
+
+Библиотеки / Libraries
+----------------------
+
+Transformers.js (@huggingface/transformers) — Apache License 2.0
+ONNX Runtime Web (onnxruntime-web) — MIT License
+Mediabunny — Mozilla Public License 2.0, https://github.com/Vanilagy/mediabunny
+React, React DOM — MIT License
+Zustand — MIT License
+Motion — MIT License
+Lucide — ISC License
