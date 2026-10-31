@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>TikTok — возврат в SLOVO</title>
+</head>
+<body style="background:#0f0f0f;color:#aaa;font:14px system-ui,sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0">
+<p id="m">Возвращаюсь в SLOVO…</p>
+<script>
+// Страница-возврат OAuth TikTok для режима «Студия» (см. src/studio.ts):
+// отдаёт код открывшему окну и закрывается. Плоский файл, а не папка со
+// страницей — намеренно: e2e/seo.mjs считает каждую public/*/index.html
+// посадочной и требует canonical и место в sitemap, а этой странице там
+// делать нечего.
+var q = new URLSearchParams(location.search);
+if (window.opener) {
+  window.opener.postMessage({ slovoTiktok: {
+    code: q.get('code') || '',
+    state: q.get('state') || '',
+    error: q.get('error_description') || q.get('error') || '',
+  } }, location.origin);
+  document.getElementById('m').textContent = 'Готово — окно сейчас закроется.';
+  setTimeout(function () { window.close(); }, 400);
+} else {
+  document.getElementById('m').textContent = 'Эта страница нужна только окну входа TikTok.';
+}
+</script>
+</body>
+</html>
