@@ -1,0 +1,19 @@
+SLOVO stem recognition model (stems-v1.json)
+
+The model weights were trained by SLOVO on the following datasets, both
+licensed under the Creative Commons Attribution 4.0 International License
+(https://creativecommons.org/licenses/by/4.0/). The datasets were changed:
+audio was resampled to 16 kHz mono, stems were grouped into nine classes,
+VocalSet clips were mixed over Slakh instrumentals with gain, EQ and reverb,
+and log-mel features were computed. No other data was used for training.
+
+Slakh2100 (redux) and BabySlakh
+  Ethan Manilow, Gordon Wichern, Prem Seetharaman, Jonathan Le Roux.
+  "Cutting Music Source Separation Some Slakh: A Dataset to Study the Impact
+  of Training Data Quality and Quantity". IEEE WASPAA, 2019.
+  https://doi.org/10.5281/zenodo.4599666
+  https://doi.org/10.5281/zenodo.4603870
+
+VocalSet: A Singing Voice Dataset
+  Julia Wilkins, Prem Seetharaman, Alison Wahl, Bryan Pardo. ISMIR, 2018.
+  https://doi.org/10.5281/zenodo.1442513
